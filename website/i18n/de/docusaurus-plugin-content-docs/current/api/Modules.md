@@ -3,7 +3,7 @@ id: modules
 title: Module
 ---
 
-WebdriverIO veröffentlicht verschiedene Module für NPM und andere Anbieter, die Sie verwenden können, um Ihr eigenes Automatisierungs-Framework zu erstellen. Weitere Dokumentation zu WebdriverIO Einrichtungstypen [finden Sie hier](/docs/setuptypes).
+WebdriverIO veröffentlicht verschiedene Module für NPM und andere Anbieter, die Sie verwenden können, um Ihr eigenes Automatisierungs-Framework zu erstellen. Weitere Dokumentation zu WebdriverIO Einrichtungstypen [finden Sie hier](../setuptypes).
 
 ## `webdriver` und `devtools`
 
@@ -15,14 +15,14 @@ Startet eine neue Sitzung mit bestimmten Fähigkeiten. Basierend auf der Session
 
 ##### Parameter
 
-- `options`: [WebDriver Optionen](/docs/configuration#webdriver-options)
+- `options`: [WebDriver Optionen](../configuration#webdriver-options)
 - `modifier`: Funktion, die es erlaubt, die Client-Instanz zu modifizieren, bevor sie zurückgegeben wird
 - `userPrototype`: Prototyp-Objekt, mit dem der Prototyp der Instanz erweitert werden kann
 - `customCommandWrapper`: Funktion, die die Funktionalität von Protokoll-Befehle beeinflussen kann.
 
 ##### Rückgabewert:
 
-- [Browser](/docs/api/browser) Objekt
+- [Browser](browser) Objekt
 
 ##### Beispiel
 
@@ -45,7 +45,7 @@ Verbindet sich mit einer bereits laufenden Automatisierungs-Session.
 
 ##### Rückgabewert:
 
-- [Browser](/docs/api/browser) object
+- [Browser](browser) object
 
 ##### Beispiel
 
@@ -79,12 +79,12 @@ Startet eine WebdriverIO-Sitzung. Die Instanz enthält alle Protokoll befehle, j
 
 ##### Parameter
 
-- `Optionen`: [WebdriverIO-Optionen](/docs/configuration#webdriverio)
+- `Optionen`: [WebdriverIO-Optionen](../configuration#webdriverio)
 - `modifier`: Funktion, die es erlaubt, die Client-Instanz zu modifizieren, bevor sie zurückgegeben wird
 
 ##### Rückgabewert:
 
-- [Browser](/docs/api/browser) Objekt
+- [Browser](browser) Objekt
 
 ##### Beispiel
 
@@ -106,7 +106,7 @@ Verbindet sich mit einer bereits laufenden Automatisierungs-Session.
 
 ##### Rückgabewert:
 
-- [Browser](/docs/api/browser) Objekt
+- [Browser](browser) Objekt
 
 ##### Beispiel
 
@@ -123,11 +123,11 @@ Startet eine Multi-Remote-Instanz, mit der Sie mehrere Browser oder Mobile Endge
 
 ##### Parameter
 
-- `multiremoteOptions`: ein Objekt mit Eigenschaften, die den Browsernamen und seine [WebdriverIO Optionen repräsentieren](/docs/configuration#webdriverio).
+- `multiremoteOptions`: ein Objekt mit Eigenschaften, die den Browsernamen und seine [WebdriverIO Optionen repräsentieren](../configuration#webdriverio).
 
 ##### Rückgabewert:
 
-- [Browser](/docs/api/browser) Objekt
+- [Browser](browser) Objekt
 
 ##### Beispiel
 

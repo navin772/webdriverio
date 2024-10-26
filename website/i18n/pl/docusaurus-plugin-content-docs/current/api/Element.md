@@ -15,7 +15,7 @@ Obiekt element ma następujące właściwości:
 | `elementId` | `String` | Powiązana [referencja do elementu sieciowego](https://w3c.github.io/webdriver/#elements), którego można użyć do interakcji z elementem na poziomie protokołu                                                                                                       |
 | `selector`  | `String` | [Selektor](/docs/selectors) wykorzystywany do wyszukania elementu.                                                                                                                                                                                                 |
 | `parent`    | `Object` | [Obiekt przeglądarki](/docs/api/browser), w przypadku, gdy element został pobrany z jej wykorzystaniem (np. `const elem = browser.$('selector')`) lub [obiekt typu element](/docs/api/element), jeśli został pobrany z zakresu elementu (np. `elem.$('selector')`) |
-| `options`   | `Object` | [Opcje](/docs/configuration) (options) WebdriverIO w zależności od sposobu utworzenia obiektu przeglądarki. Zobacz więcej w sekcji [typy konfiguracji](/docs/setuptypes).                                                                                          |
+| `options`   | `Object` | [Opcje](../configuration) (options) WebdriverIO w zależności od sposobu utworzenia obiektu przeglądarki. Zobacz więcej w sekcji [typy konfiguracji](../setuptypes).                                                                                          |
 
 ## Metody
 

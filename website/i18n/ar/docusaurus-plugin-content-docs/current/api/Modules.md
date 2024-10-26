@@ -3,7 +3,7 @@ id: modules
 title: Modules
 ---
 
-WebdriverIO publishes various of modules to NPM and other registries that you can use to build your own automation framework. See more documentation on WebdriverIO setup types [here](/docs/setuptypes).
+WebdriverIO publishes various of modules to NPM and other registries that you can use to build your own automation framework. See more documentation on WebdriverIO setup types [here](../setuptypes).
 
 ## `webdriver` and `devtools`
 
@@ -15,14 +15,14 @@ Starts a new session with specific capabilities. Based on the session response c
 
 ##### Paramaters
 
-- `options`: [WebDriver Options](/docs/configuration#webdriver-options)
+- `options`: [WebDriver Options](../configuration#webdriver-options)
 - `modifier`: function that allows to modify the client instance before it is being returned
 - `userPrototype`: properties object that allows to extend the instance prototype
 - `customCommandWrapper`: function that allows to wrap functionality around function calls
 
 ##### Returns
 
-- [Browser](/docs/api/browser) object
+- [Browser](browser) object
 
 ##### Example
 
@@ -45,7 +45,7 @@ Attaches to a running WebDriver or DevTools session.
 
 ##### Returns
 
-- [Browser](/docs/api/browser) object
+- [Browser](browser) object
 
 ##### Example
 
@@ -79,12 +79,12 @@ Starts a WebdriverIO session. The instance contains all commands as the protocol
 
 ##### Paramaters
 
-- `options`: [WebdriverIO Options](/docs/configuration#webdriverio)
+- `options`: [WebdriverIO Options](../configuration#webdriverio)
 - `modifier`: function that allows to modify the client instance before it is being returned
 
 ##### Returns
 
-- [Browser](/docs/api/browser) object
+- [Browser](browser) object
 
 ##### Example
 
@@ -106,7 +106,7 @@ Attaches to a running WebdriverIO session.
 
 ##### Returns
 
-- [Browser](/docs/api/browser) object
+- [Browser](browser) object
 
 ##### Example
 
@@ -123,11 +123,11 @@ Initiates a multiremote instance which allows you to control multiple session wi
 
 ##### Paramaters
 
-- `multiremoteOptions`: an object with keys representing the browser name and their [WebdriverIO Options](/docs/configuration#webdriverio).
+- `multiremoteOptions`: an object with keys representing the browser name and their [WebdriverIO Options](../configuration#webdriverio).
 
 ##### Returns
 
-- [Browser](/docs/api/browser) object
+- [Browser](browser) object
 
 ##### Example
 

@@ -15,7 +15,7 @@ title: एलीमेंट ऑब्जेक्ट
 | `elementId` | `String` | संबद्ध [वेब तत्व संदर्भ](https://w3c.github.io/webdriver/#elements) जिसका उपयोग प्रोटोकॉल स्तर पर तत्व के साथ इंटरैक्ट करने के लिए किया जा सकता है                                                                                                               |
 | `selector`  | `String` | [चयनकर्ता](/docs/selectors) तत्व को क्वेरी करने के लिए प्रयोग किया जाता है।                                                                                                                                                                                      |
 | `parent`    | `Object` | या तो [ब्राउज़र ऑब्जेक्ट](/docs/api/browser) जब तत्व इससे प्राप्त किया गया था (उदाहरण के लिए `cconst elem = browser.$('selector')`) या एक [तत्व ऑब्जेक्ट](/docs/api/element) यदि यह किसी तत्व दायरे से प्राप्त किया गया था (उदाहरण के लिए `elem.$( 'selector')`) |
-| `options`   | `Object` | WebdriverIO [विकल्प](/docs/configuration) ब्राउज़र ऑब्जेक्ट कैसे बनाया गया था इसके आधार पर। अधिक [सेटअप प्रकार देखें](/docs/setuptypes)।                                                                                                                         |
+| `options`   | `Object` | WebdriverIO [विकल्प](../configuration) ब्राउज़र ऑब्जेक्ट कैसे बनाया गया था इसके आधार पर। अधिक [सेटअप प्रकार देखें](../setuptypes)।                                                                                                                         |
 
 ## विधियां
 

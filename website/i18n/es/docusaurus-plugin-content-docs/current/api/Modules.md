@@ -3,7 +3,7 @@ id: modules
 title: Módulos
 ---
 
-WebdriverIO publica varios módulos a NPM y otros registros que puede utilizar para construir su propio marco de automatización. Vea más documentación sobre tipos de configuración de WebdriverIO [aquí](/docs/setuptypes).
+WebdriverIO publica varios módulos a NPM y otros registros que puede utilizar para construir su propio marco de automatización. Vea más documentación sobre tipos de configuración de WebdriverIO [aquí](../setuptypes).
 
 ## `webdriver` y `devtools`
 
@@ -15,7 +15,7 @@ Inicia una nueva sesión con capacidades específicas. Basado en los comandos de
 
 ##### Parámetros
 
-- `options`: [Opciones de WebDriver](/docs/configuration#webdriver-options)
+- `options`: [Opciones de WebDriver](../configuration#webdriver-options)
 - `modifier`: función que permite modificar la instancia del cliente antes de que sea devuelta
 - `userPrototype`: objeto de propiedades que permite extender el prototipo de instancia
 - `customCommandWrapper`: función que permite envolver la funcionalidad alrededor de llamadas de función
@@ -45,7 +45,7 @@ Se adjunta a una sesión de WebDriver o DevTools en ejecución.
 
 ##### Retornos
 
-- [Browser](/docs/api/browser) object
+- [Browser](browser) object
 
 ##### Ejemplo
 
@@ -79,7 +79,7 @@ Inicia una sesión WebdriverIO. La instancia contiene todos los comandos como el
 
 ##### Parámetros
 
-- `options`: [Opciones de WebDriver](/docs/configuration#webdriverio)
+- `options`: [Opciones de WebDriver](../configuration#webdriverio)
 - `modifier`: función que permite modificar la instancia del cliente antes de que sea devuelta
 
 ##### Retornos
@@ -123,7 +123,7 @@ Inicia una instancia multiremota que le permite controlar varias sesiones dentro
 
 ##### Parámetros
 
-- `multiremoteOptions`: un objeto con claves que representan el nombre del navegador y sus [Opciones WebdriverIO](/docs/configuration#webdriverio).
+- `multiremoteOptions`: un objeto con claves que representan el nombre del navegador y sus [Opciones WebdriverIO](../configuration#webdriverio).
 
 ##### Retornos
 

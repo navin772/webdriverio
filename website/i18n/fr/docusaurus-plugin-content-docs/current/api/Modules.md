@@ -3,7 +3,7 @@ id: modules
 title: Modules
 ---
 
-WebdriverIO publie divers modules sur NPM et d'autres registres que vous pouvez utiliser pour créer votre propre framework d'automatisation. Voir plus de documentation sur les types de configuration WebdriverIO [ici](/docs/setuptypes).
+WebdriverIO publie divers modules sur NPM et d'autres registres que vous pouvez utiliser pour créer votre propre framework d'automatisation. Voir plus de documentation sur les types de configuration WebdriverIO [ici](../setuptypes).
 
 ## `webdriver` et `devtools`
 
@@ -15,14 +15,14 @@ Démarre une nouvelle session avec des fonctionnalités spécifiques. Sur la bas
 
 ##### Paramètres
 
-- `options`: [Options WebDriver](/docs/configuration#webdriver-options)
+- `options`: [Options WebDriver](../configuration#webdriver-options)
 - `modifier`: fonction qui permet de modifier l'instance client avant qu'elle ne soit renvoyée
 - `userPrototype`: objet de propriétés qui permet d'étendre le prototype d'instance
 - `customCommandWrapper`: fonction qui permet d'envelopper la fonctionnalité autour des appels de fonction
 
 ##### Retours
 
-- [Browser](/docs/api/browser) objet
+- [Browser](browser) objet
 
 ##### Exemple
 
@@ -45,7 +45,7 @@ Attache à une session WebDriver ou DevTools en cours d'exécution.
 
 ##### Retours
 
-- [Browser](/docs/api/browser) object
+- [Browser](browser) object
 
 ##### Exemple
 
@@ -79,12 +79,12 @@ Démarre une session WebdriverIO. L'instance contient toutes les commandes en ta
 
 ##### Paramètres
 
-- `options`: [Options WebDriver](/docs/configuration#webdriverio)
+- `options`: [Options WebDriver](../configuration#webdriverio)
 - `modifier`: fonction qui permet de modifier l'instance client avant qu'elle ne soit renvoyée
 
 ##### Retours
 
-- [Browser](/docs/api/browser) objet
+- [Browser](browser) objet
 
 ##### Exemple
 
@@ -106,7 +106,7 @@ Attache à une session WebDriver ou DevTools en cours d'exécution.
 
 ##### Retours
 
-- [Browser](/docs/api/browser) objet
+- [Browser](browser) objet
 
 ##### Exemple
 
@@ -123,11 +123,11 @@ Initie une instance multidistant qui vous permet de contrôler plusieurs session
 
 ##### Paramètres
 
-- `multiremoteOptions`: un objet avec des clés représentant le nom du navigateur et ses [options WebdriverIO](/docs/configuration#webdriverio).
+- `multiremoteOptions`: un objet avec des clés représentant le nom du navigateur et ses [options WebdriverIO](../configuration#webdriverio).
 
 ##### Retours
 
-- [Browser](/docs/api/browser) objet
+- [Browser](browser) objet
 
 ##### Exemple
 

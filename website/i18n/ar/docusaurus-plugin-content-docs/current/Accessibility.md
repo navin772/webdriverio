@@ -9,7 +9,7 @@ You can include accessibility tests within your WebdriverIO test suite using the
 npm install -g @axe-core/webdriverio
 ```
 
-The Axe adapter can be used either in [standalone or testrunner](/docs/setuptypes) mode by simply importing and initializing it with the [browser object](/docs/api/browser), e.g.:
+The Axe adapter can be used either in [standalone or testrunner](../setuptypes) mode by simply importing and initializing it with the [browser object](/docs/api/browser), e.g.:
 
 ```ts
 import { browser } from '@wdio/globals'
