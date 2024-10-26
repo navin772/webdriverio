@@ -26,7 +26,7 @@ In addition to that the following commands are available:
 | Name               | Parameters                                                            | Details                                                                                                                                                                                                        |
 | ------------------ | --------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `addCommand`       | - `commandName` (Type: `String`)<br />- `fn` (Type: `Function`) | Allows to define custom commands that can be called from the browser object for compisition purposes. Read more in the [Custom Command](../customcommands) guide.                                           |
-| `overwriteCommand` | - `commandName` (Type: `String`)<br />- `fn` (Type: `Function`) | Allows to overwrite any browser command with custom functionality. Use carefully as it can confuse framework users. Read more in the [Custom Command](/docs/customcommands#overwriting-native-commands) guide. |
+| `overwriteCommand` | - `commandName` (Type: `String`)<br />- `fn` (Type: `Function`) | Allows to overwrite any browser command with custom functionality. Use carefully as it can confuse framework users. Read more in the [Custom Command](../customcommands#overwriting-native-commands) guide. |
 
 ## Remarks
 
@@ -72,4 +72,4 @@ WebdriverIO uses a custom implementation that supports asynchronous iteratiors u
 
 ### Custom Commands
 
-You can set custom commands on the browser scope to abstract away workflows that are commonly used. Check out our guide on [Custom Commands](/docs/customcommands#adding-custom-commands) for more information.
+You can set custom commands on the browser scope to abstract away workflows that are commonly used. Check out our guide on [Custom Commands](../customcommands#adding-custom-commands) for more information.

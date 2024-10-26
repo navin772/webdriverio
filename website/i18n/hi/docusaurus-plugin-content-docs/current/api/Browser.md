@@ -35,8 +35,8 @@ __विस्तार:__ [इवेंटएमिटर](https://nodejs.org/a
 | नाम                  | पैरामीटर                                                                                                               | विवरण                                                                                                                                                                                                                               |
 | -------------------- | ---------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `addCommand`         | - `commandName` (Type: `String`)<br />- `fn` (Type: `Function`)<br />- `attachToElement` (Type: `boolean`) | कस्टम कमांड को परिभाषित करने की अनुमति देता है जिसे रचना उद्देश्यों के लिए ब्राउज़र ऑब्जेक्ट से कॉल किया जा सकता है। [कस्टम कमांड](../customcommands) गाइड में और पढ़ें।                                                         |
-| `overwriteCommand`   | - `commandName` (Type: `String`)<br />- `fn` (Type: `Function`)<br />- `attachToElement` (Type: `boolean`) | Allows to overwrite any browser command with custom functionality. सावधानी से उपयोग करें क्योंकि यह फ्रेमवर्क उपयोगकर्ताओं को भ्रमित कर सकता है। [कस्टम कमांड](/docs/customcommands#overwriting-native-commands) गाइड में और पढ़ें। |
-| `addLocatorStrategy` | - `strategyName` (Type: `String`)<br />- `fn` (Type: `Function`)                                                 | Allows to define a custom selector strategy, read more in the [Selectors](/docs/selectors#custom-selector-strategies) guide.                                                                                                        |
+| `overwriteCommand`   | - `commandName` (Type: `String`)<br />- `fn` (Type: `Function`)<br />- `attachToElement` (Type: `boolean`) | Allows to overwrite any browser command with custom functionality. सावधानी से उपयोग करें क्योंकि यह फ्रेमवर्क उपयोगकर्ताओं को भ्रमित कर सकता है। [कस्टम कमांड](../customcommands#overwriting-native-commands) गाइड में और पढ़ें। |
+| `addLocatorStrategy` | - `strategyName` (Type: `String`)<br />- `fn` (Type: `Function`)                                                 | Allows to define a custom selector strategy, read more in the [Selectors](../selectors#custom-selector-strategies) guide.                                                                                                        |
 
 ## टिप्पणियां
 
@@ -133,4 +133,4 @@ Object {
 
 ### कस्टम कमांड
 
-आप आमतौर पर उपयोग किए जाने वाले वर्कफ़्लोज़ को अलग करने के लिए ब्राउज़र स्कोप पर कस्टम कमांड सेट कर सकते हैं। अधिक जानकारी के लिए [कस्टम कमांड](/docs/customcommands#adding-custom-commands) पर हमारी मार्गदर्शिका देखें।
+आप आमतौर पर उपयोग किए जाने वाले वर्कफ़्लोज़ को अलग करने के लिए ब्राउज़र स्कोप पर कस्टम कमांड सेट कर सकते हैं। अधिक जानकारी के लिए [कस्टम कमांड](../customcommands#adding-custom-commands) पर हमारी मार्गदर्शिका देखें।

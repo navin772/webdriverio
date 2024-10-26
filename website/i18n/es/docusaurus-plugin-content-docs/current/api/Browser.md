@@ -35,8 +35,8 @@ Además, dispone de los siguientes comandos:
 | Nombre               | Parámetros                                                                                                             | Detalles                                                                                                                                                                                                                                           |
 | -------------------- | ---------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `addCommand`         | - `commandName` (Type: `String`)<br />- `fn` (Type: `Function`)<br />- `attachToElement` (Type: `boolean`) | Permite definir comandos personalizados que pueden ser llamados desde el objeto navegador con fines de composición. Más información en la guía [Comandos personalizados](../customcommands).                                                    |
-| `overwriteCommand`   | - `commandName` (Type: `String`)<br />- `fn` (Type: `Function`)<br />- `attachToElement` (Type: `boolean`) | Allows to overwrite any browser command with custom functionality. Utilícelo con cuidado, ya que puede confundir a los usuarios del marco. Más información en la guía [Comandos personalizados](/docs/customcommands#overwriting-native-commands). |
-| `addLocatorStrategy` | - `strategyName` (Type: `String`)<br />- `fn` (Type: `Function`)                                                 | Allows to define a custom selector strategy, read more in the [Selectors](/docs/selectors#custom-selector-strategies) guide.                                                                                                                       |
+| `overwriteCommand`   | - `commandName` (Type: `String`)<br />- `fn` (Type: `Function`)<br />- `attachToElement` (Type: `boolean`) | Allows to overwrite any browser command with custom functionality. Utilícelo con cuidado, ya que puede confundir a los usuarios del marco. Más información en la guía [Comandos personalizados](../customcommands#overwriting-native-commands). |
+| `addLocatorStrategy` | - `strategyName` (Type: `String`)<br />- `fn` (Type: `Function`)                                                 | Allows to define a custom selector strategy, read more in the [Selectors](../selectors#custom-selector-strategies) guide.                                                                                                                       |
 
 ## Avisos
 
@@ -133,4 +133,4 @@ Object {
 
 ### Comandos personalizados
 
-Puede configurar comandos personalizados en el ámbito del navegador para abstruir los flujos de trabajo que se utilizan comúnmente. Consulte nuestra guía en [Comandos personalizados](/docs/customcommands#adding-custom-commands) para más información.
+Puede configurar comandos personalizados en el ámbito del navegador para abstruir los flujos de trabajo que se utilizan comúnmente. Consulte nuestra guía en [Comandos personalizados](../customcommands#adding-custom-commands) para más información.

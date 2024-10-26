@@ -26,7 +26,7 @@ title: एलीमेंट ऑब्जेक्ट
 | नाम                | पैरामीटर                                                              | विवरण                                                                                                                                                                                                                               |
 | ------------------ | --------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `addCommand`       | - `commandName` (Type: `String`)<br />- `fn` (Type: `Function`) | Allows to define custom commands that can be called from the browser object for composition purposes. [कस्टम कमांड](../customcommands) गाइड में और पढ़ें।                                                                        |
-| `overwriteCommand` | - `commandName` (Type: `String`)<br />- `fn` (Type: `Function`) | Allows to overwrite any browser command with custom functionality. सावधानी से उपयोग करें क्योंकि यह फ्रेमवर्क उपयोगकर्ताओं को भ्रमित कर सकता है। [कस्टम कमांड](/docs/customcommands#overwriting-native-commands) गाइड में और पढ़ें। |
+| `overwriteCommand` | - `commandName` (Type: `String`)<br />- `fn` (Type: `Function`) | Allows to overwrite any browser command with custom functionality. सावधानी से उपयोग करें क्योंकि यह फ्रेमवर्क उपयोगकर्ताओं को भ्रमित कर सकता है। [कस्टम कमांड](../customcommands#overwriting-native-commands) गाइड में और पढ़ें। |
 
 ## टिप्पणियां
 
@@ -72,4 +72,4 @@ WebdriverIO uses a custom implementation that supports asynchronous iteratiors u
 
 ### कस्टम कमांड
 
-आप आमतौर पर उपयोग किए जाने वाले वर्कफ़्लोज़ को अलग करने के लिए ब्राउज़र स्कोप पर कस्टम कमांड सेट कर सकते हैं। अधिक जानकारी के लिए [कस्टम कमांड](/docs/customcommands#adding-custom-commands) पर हमारी मार्गदर्शिका देखें।
+आप आमतौर पर उपयोग किए जाने वाले वर्कफ़्लोज़ को अलग करने के लिए ब्राउज़र स्कोप पर कस्टम कमांड सेट कर सकते हैं। अधिक जानकारी के लिए [कस्टम कमांड](../customcommands#adding-custom-commands) पर हमारी मार्गदर्शिका देखें।

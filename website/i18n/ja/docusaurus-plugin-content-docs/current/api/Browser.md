@@ -35,8 +35,8 @@ Browser Objectは、ブラウザまたはモバイル デバイスを制御す�
 | Name                 | Parameters                                                                                                             | Details                                                                                                                                             |
 | -------------------- | ---------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `addCommand`         | - `commandName` (Type: `String`)<br />- `fn` (Type: `Function`)<br />- `attachToElement` (Type: `boolean`) | 作成目的でブラウザオブジェクトから呼び出すことができるカスタムコマンドを定義できます。 詳細については、 [Custom Command](../customcommands) ガイドを参照してください。                                           |
-| `overwriteCommand`   | - `commandName` (Type: `String`)<br />- `fn` (Type: `Function`)<br />- `attachToElement` (Type: `boolean`) | ブラウザコマンドをカスタム機能で上書きできます。 他の開発者を混乱させる可能性があるため、慎重に使用してください。 詳細については、 [Custom Command](/docs/customcommands#overwriting-native-commands) ガイドを参照してください。 |
-| `addLocatorStrategy` | - `strategyName` (Type: `String`)<br />- `fn` (Type: `Function`)                                                 | カスタム セレクター戦略を定義できます。詳細については、 [ Selectors ](/docs/selectors#custom-selector-strategies) ガイドを参照してください。                                                |
+| `overwriteCommand`   | - `commandName` (Type: `String`)<br />- `fn` (Type: `Function`)<br />- `attachToElement` (Type: `boolean`) | ブラウザコマンドをカスタム機能で上書きできます。 他の開発者を混乱させる可能性があるため、慎重に使用してください。 詳細については、 [Custom Command](../customcommands#overwriting-native-commands) ガイドを参照してください。 |
+| `addLocatorStrategy` | - `strategyName` (Type: `String`)<br />- `fn` (Type: `Function`)                                                 | カスタム セレクター戦略を定義できます。詳細については、 [ Selectors ](../selectors#custom-selector-strategies) ガイドを参照してください。                                                |
 
 ## 備考
 
@@ -133,4 +133,4 @@ Object {
 
 ### カスタムコマンド
 
-ブラウザーのスコープにカスタム コマンドを設定して、一般的に使用されるワークフローを抽象化できます。 詳細については、 [ Custom Commands ](/docs/customcommands#adding-custom-commands) に関するガイドを参照してください。
+ブラウザーのスコープにカスタム コマンドを設定して、一般的に使用されるワークフローを抽象化できます。 詳細については、 [ Custom Commands ](../customcommands#adding-custom-commands) に関するガイドを参照してください。
