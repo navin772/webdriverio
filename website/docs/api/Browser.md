@@ -5,7 +5,7 @@ title: The Browser Object
 
 __Extends:__ [EventEmitter](https://nodejs.org/api/events.html#class-eventemitter)
 
-The browser object is the session instance you use to control the browser or mobile device with. If you use the WDIO test runner, you can access the WebDriver instance through the global `browser` or `driver` object or import it using [`@wdio/globals`](/docs/api/globals). If you use WebdriverIO in standalone mode the browser object is returned by the [`remote`](/docs/api/modules#remoteoptions-modifier) method.
+The browser object is the session instance you use to control the browser or mobile device with. If you use the WDIO test runner, you can access the WebDriver instance through the global `browser` or `driver` object or import it using [`@wdio/globals`](globals). If you use WebdriverIO in standalone mode the browser object is returned by the [`remote`](modules#remoteoptions-modifier) method.
 
 The session is initialized by the test runner. The same goes for ending the session. This is also done by the test runner process.
 
@@ -18,7 +18,7 @@ A browser object has the following properties:
 | `capabilities` | `Object` | Assigned capabilities from the remote server.<br /><b>Example:</b><pre>\{<br />  acceptInsecureCerts: false,<br />  browserName: 'chrome',<br />  browserVersion: '105.0.5195.125',<br />  chrome: \{<br />    chromedriverVersion: '105.0.5195.52',<br />    userDataDir: '/var/folders/3_/pzc_f56j15vbd9z3r0j050sh0000gn/T/.com.google.Chrome.76HD3S'<br />  \},<br />  'goog:chromeOptions': \{ debuggerAddress: 'localhost:64679' \},<br />  networkConnectionEnabled: false,<br />  pageLoadStrategy: 'normal',<br />  platformName: 'mac os x',<br />  proxy: \{},<br />  setWindowRect: true,<br />  strictFileInteractability: false,<br />  timeouts: \{ implicit: 0, pageLoad: 300000, script: 30000 \},<br />  unhandledPromptBehavior: 'dismiss and notify',<br />  'webauthn:extension:credBlob': true,<br />  'webauthn:extension:largeBlob': true,<br />  'webauthn:virtualAuthenticators': true<br />\}</pre> |
 | `requestedCapabilities` | `Object` | Capabilities requested from the remote server.<br /><b>Example:</b><pre>\{ browserName: 'chrome' \}</pre>
 | `sessionId` | `String` | Session id assigned from the remote server. |
-| `options` | `Object` | WebdriverIO [options](../configuration) depending on how the browser object was created. See more [setup types](/docs/setuptypes). |
+| `options` | `Object` | WebdriverIO [options](../configuration) depending on how the browser object was created. See more [setup types](../setuptypes). |
 | `commandList` | `String[]` | A list of commands registered to the browser instance |
 | `isMobile` | `Boolean` | Indicates a mobile session. See more under [Mobile Flags](#mobile-flags). |
 | `isIOS` | `Boolean` | Indicates an iOS session. See more under [Mobile Flags](#mobile-flags). |
@@ -26,7 +26,7 @@ A browser object has the following properties:
 
 ## Methods
 
-Based on the automation backend used for your session, WebdriverIO identifies which [Protocol Commands](/docs/api/protocols) will be attached to the [browser object](/docs/api/browser). For example if you run an automated session in Chrome, you will have access to Chromium specific commands like [`elementHover`](/docs/api/chromium#elementhover) but not any of the [Appium commands](/docs/api/appium).
+Based on the automation backend used for your session, WebdriverIO identifies which [Protocol Commands](protocols) will be attached to the [browser object](/docs/api/browser). For example if you run an automated session in Chrome, you will have access to Chromium specific commands like [`elementHover`](/docs/api/chromium#elementhover) but not any of the [Appium commands](/docs/api/appium).
 
 Furthermore WebdriverIO provides a set of convenient methods that are recommended to use, to interact with the [browser](/docs/api/browser) or [elements](/docs/api/element) on the page.
 

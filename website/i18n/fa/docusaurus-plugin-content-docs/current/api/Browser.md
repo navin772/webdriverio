@@ -5,7 +5,7 @@ title: آبجکت Browser
 
 __گسترشی برای:__ [EventEmitter](https://nodejs.org/api/events.html#class-eventemitter)
 
-آبجکت Browser نمونه شیئی است که برای کنترل مرورگر یا تلفن همراه از آن استفاده می‌کنید. اگر از اجرا کننده WDIO استفاده می‌کنید، می‌توانید به نمونه WebDriver از طریق شیء جهانی `browser` یا `driver` دسترسی داشته باشید یا آن را با استفاده از [`@wdio/globals`](/docs/api/globals)ایمپورت کنید. اگر از WebdriverIO در حالت مستقل استفاده می کنید، شی browser از طریق تابع [`remote`](/docs/api/modules#remoteoptions-modifier) برگردانده می شود.
+آبجکت Browser نمونه شیئی است که برای کنترل مرورگر یا تلفن همراه از آن استفاده می‌کنید. اگر از اجرا کننده WDIO استفاده می‌کنید، می‌توانید به نمونه WebDriver از طریق شیء جهانی `browser` یا `driver` دسترسی داشته باشید یا آن را با استفاده از [`@wdio/globals`](globals)ایمپورت کنید. اگر از WebdriverIO در حالت مستقل استفاده می کنید، شی browser از طریق تابع [`remote`](modules#remoteoptions-modifier) برگردانده می شود.
 
 یک session توسط اجرا کننده تست مقداردهی اولیه می شود. در مورد پایان دادن به session نیز همین امر برقرار است. این امر نیز توسط اجرا کننده تست انجام می‌پذیرد.
 
@@ -26,7 +26,7 @@ __گسترشی برای:__ [EventEmitter](https://nodejs.org/api/events.html#cla
 
 ## متود ها(توابع)
 
-بر اساس پشتیبان اتوماسیون مورد استفاده برای session شما، WebdriverIO مشخص می کند که کدام [دستور های پروتکل](/docs/api/protocols) به شی [browser](/docs/api/browser) متصل می شود. برای مثال، اگر یک session خودکار را در Chrome اجرا کنید، به دستورات خاص Chromium مانند [`elementHover`](/docs/api/chromium#elementhover) دسترسی خواهید داشت اما به هیچ یک از [فرمان های Appium](/docs/api/appium) دسترسی ندارید.
+بر اساس پشتیبان اتوماسیون مورد استفاده برای session شما، WebdriverIO مشخص می کند که کدام [دستور های پروتکل](protocols) به شی [browser](/docs/api/browser) متصل می شود. برای مثال، اگر یک session خودکار را در Chrome اجرا کنید، به دستورات خاص Chromium مانند [`elementHover`](/docs/api/chromium#elementhover) دسترسی خواهید داشت اما به هیچ یک از [فرمان های Appium](/docs/api/appium) دسترسی ندارید.
 
 علاوه بر این WebdriverIO مجموعه ای از روش های راحت را ارائه می دهد که برای تعامل با مرورگر [](/docs/api/browser) یا [عناصر](/docs/api/element) در صفحه توصیه می شود از آنها استفاده کنید.
 

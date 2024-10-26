@@ -5,7 +5,7 @@ title: The Browser Object
 
 __Extends:__ [EventEmitter](https://nodejs.org/api/events.html#class-eventemitter)
 
-Browser Objectは、ブラウザまたはモバイル デバイスを制御するために使用するsession instanceです。 WDIO テストランナーを使用する場合は、グローバル `browser` または `driver` オブジェクトを通じてWebDriver インスタンスにアクセスするか、 [`@wdio/globals`](/docs/api/globals)を使用してインポートできます。 WebdriverIO を standalone mode で使用する場合、ブラウザ オブジェクトは [`remote`](/docs/api/modules#remoteoptions-modifier) メソッドによって返されます。
+Browser Objectは、ブラウザまたはモバイル デバイスを制御するために使用するsession instanceです。 WDIO テストランナーを使用する場合は、グローバル `browser` または `driver` オブジェクトを通じてWebDriver インスタンスにアクセスするか、 [`@wdio/globals`](globals)を使用してインポートできます。 WebdriverIO を standalone mode で使用する場合、ブラウザ オブジェクトは [`remote`](modules#remoteoptions-modifier) メソッドによって返されます。
 
 セッションはテストランナーによって初期化されます。 同じようにセッションを終了する場合もテストランナーによって行われます これはテストランナープロセスによって行われます。
 
@@ -26,7 +26,7 @@ Browser Objectは、ブラウザまたはモバイル デバイスを制御す�
 
 ## Methods
 
-セッションに使用されるオートメーション バックエンドに基づいて、WebdriverIO の [Protocol Commands](/docs/api/protocols) はどの[browser object](/docs/api/browser)にアタッチされるかを識別します。 例えば、Chrome で自動セッションを実行する場合など [`elementHover`](/docs/api/chromium#elementhover) のような Chromium 固有のコマンドにアクセスできますが、 [Appium コマンド](/docs/api/appium) のいずれにもアクセスできません。
+セッションに使用されるオートメーション バックエンドに基づいて、WebdriverIO の [Protocol Commands](protocols) はどの[browser object](/docs/api/browser)にアタッチされるかを識別します。 例えば、Chrome で自動セッションを実行する場合など [`elementHover`](/docs/api/chromium#elementhover) のような Chromium 固有のコマンドにアクセスできますが、 [Appium コマンド](/docs/api/appium) のいずれにもアクセスできません。
 
 さらに、WebdriverIO は、ページ上の [ browser ](/docs/api/browser) または [ elements ](/docs/api/element) と対話するために使用することが推奨される一連の便利なメソッドを提供します。
 

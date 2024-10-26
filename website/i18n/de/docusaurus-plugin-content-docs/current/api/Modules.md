@@ -75,7 +75,7 @@ await WebDriver.reloadSession(client)
 
 #### `remote(options, modifier)`
 
-Startet eine WebdriverIO-Sitzung. Die Instanz enthält alle Protokoll befehle, jedoch mit zusätzlichen Funktionen, siehe [API-Dokumentation](/docs/api).
+Startet eine WebdriverIO-Sitzung. Die Instanz enthält alle Protokoll befehle, jedoch mit zusätzlichen Funktionen, siehe [API-Dokumentation](../api).
 
 ##### Parameter
 
@@ -207,7 +207,7 @@ Der Befehl `run` gibt ein [Promise](https://developer.mozilla.org/en-US/docs/Web
 
 ## `@wdio/browser-runner`
 
-Wenn Sie Unit- oder Komponententests mit WebdriverIOs [Browser Runner](/docs/runner#browser-runner) ausführen, können Sie Mocking Funktionalitäten für Ihre Tests importieren, z.B.:
+Wenn Sie Unit- oder Komponententests mit WebdriverIOs [Browser Runner](../runner#browser-runner) ausführen, können Sie Mocking Funktionalitäten für Ihre Tests importieren, z.B.:
 
 ```ts
 import { fn, spyOn, mock, unmock } from '@wdio/browser-runner'

@@ -5,7 +5,7 @@ title: பிரௌசர் ஆப்ஜெக்ட்
 
 __ Extends:__ [EventEmitter](https://nodejs.org/api/events.html#class-eventemitter)
 
-பிரௌசர் ஆப்ஜெக்ட் என்பது பிரௌசர் அல்லது மொபைல் சாதனத்தைக் கட்டுப்படுத்த நீங்கள் பயன்படுத்தும் செஷன் நிகழ்வாகும். நீங்கள் WDIO டெஸ்ட் ரன்னரைப் பயன்படுத்தினால், குளோபல் ` browser ` அல்லது ` driver ` ஆப்ஜெக்ட் மூலம் WebDriver நிகழ்வை அணுகலாம் அல்லது [`@wdio/globals`](/docs/api/globals)ஐப் பயன்படுத்தி இறக்குமதி செய்யலாம். நீங்கள் தனித்தனி முறையில் WebdriverIO ஐப் பயன்படுத்தினால், பிரௌசர் ஆப்ஜெக்ட் [` remote `](/docs/api/modules#remoteoptions-modifier) முறையில் திருப்பியளிக்கப்படும்.
+பிரௌசர் ஆப்ஜெக்ட் என்பது பிரௌசர் அல்லது மொபைல் சாதனத்தைக் கட்டுப்படுத்த நீங்கள் பயன்படுத்தும் செஷன் நிகழ்வாகும். நீங்கள் WDIO டெஸ்ட் ரன்னரைப் பயன்படுத்தினால், குளோபல் ` browser ` அல்லது ` driver ` ஆப்ஜெக்ட் மூலம் WebDriver நிகழ்வை அணுகலாம் அல்லது [`@wdio/globals`](globals)ஐப் பயன்படுத்தி இறக்குமதி செய்யலாம். நீங்கள் தனித்தனி முறையில் WebdriverIO ஐப் பயன்படுத்தினால், பிரௌசர் ஆப்ஜெக்ட் [` remote `](modules#remoteoptions-modifier) முறையில் திருப்பியளிக்கப்படும்.
 
 டெஸ்ட் ரன்னெறால் செஷன் தொடங்கப்படுகிறது. செஷனை முடிப்பதற்கும் இதுவே செல்கிறது. இது டெஸ்ட் ரன்னர் செயல்முறையாலும் செய்யப்படுகிறது.
 
@@ -26,7 +26,7 @@ __ Extends:__ [EventEmitter](https://nodejs.org/api/events.html#class-eventemitt
 
 ## Methods
 
-உங்கள் அமர்வுக்கு பயன்படுத்தப்படும் ஆட்டோமேஷன் பின்தளத்தின் அடிப்படையில், [browser object](/docs/api/browser)உடன் எந்த [Protocol Commands](/docs/api/protocols) இணைக்கப்படும் என்பதை WebdriverIO அடையாளம் காட்டுகிறது. எடுத்துக்காட்டாக, நீங்கள் Chrome இல் தானியங்கு அமர்வை இயக்கினால், [`elementHover`](/docs/api/chromium#elementhover) போன்ற Chromium குறிப்பிட்ட கட்டளைகளுக்கான அணுகலைப் பெறுவீர்கள், ஆனால் [Appium commands ](/docs/api/appium) க்கு அல்ல.
+உங்கள் அமர்வுக்கு பயன்படுத்தப்படும் ஆட்டோமேஷன் பின்தளத்தின் அடிப்படையில், [browser object](/docs/api/browser)உடன் எந்த [Protocol Commands](protocols) இணைக்கப்படும் என்பதை WebdriverIO அடையாளம் காட்டுகிறது. எடுத்துக்காட்டாக, நீங்கள் Chrome இல் தானியங்கு அமர்வை இயக்கினால், [`elementHover`](/docs/api/chromium#elementhover) போன்ற Chromium குறிப்பிட்ட கட்டளைகளுக்கான அணுகலைப் பெறுவீர்கள், ஆனால் [Appium commands ](/docs/api/appium) க்கு அல்ல.
 
 மேலும் WebdriverIO ஆனது, பக்கத்தில் உள்ள [ browser ](/docs/api/browser) அல்லது [ elements ](/docs/api/element) உடன் தொடர்பு கொள்ள, பயன்படுத்தப் பரிந்துரைக்கப்படும் வசதியான முறைகளின் தொகுப்பை வழங்குகிறது.
 

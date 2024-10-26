@@ -5,7 +5,7 @@ title: L'objet Browser
 
 __Comprend :__ [EventEmitter](https://nodejs.org/api/events.html#class-eventemitter)
 
-L'objet "browser" est l'instance de session que vous utilisez pour contrôler le navigateur ou périphérique mobile. Si vous utilisez l'exécuteur de test WDIO, vous pouvez accéder à l'instance WebDriver via l'objet global `browser` ou `driver` ou l'importer à l'aide de [`@wdio/globals`](/docs/api/globals). Si vous utilisez WebdriverIO en mode autonome, l'objet `browser` est renvoyé par la méthode [`remote`](/docs/api/modules#remoteoptions-modifier).
+L'objet "browser" est l'instance de session que vous utilisez pour contrôler le navigateur ou périphérique mobile. Si vous utilisez l'exécuteur de test WDIO, vous pouvez accéder à l'instance WebDriver via l'objet global `browser` ou `driver` ou l'importer à l'aide de [`@wdio/globals`](globals). Si vous utilisez WebdriverIO en mode autonome, l'objet `browser` est renvoyé par la méthode [`remote`](modules#remoteoptions-modifier).
 
 La session est initialisée par l'exécuteur de test. Il en va de même pour la clôture de la session. Cela est également fait par le processus d'exécuteur de test.
 
@@ -26,7 +26,7 @@ Un objet `browser` possède les propriétés suivantes :
 
 ## Méthodes
 
-Basé sur le backend d'automatisation utilisé pour votre session, WebdriverIO identifie quelles [commandes du protocole](/docs/api/protocols) seront attachées à l'objet [browser](/docs/api/browser). Par exemple, si vous lancez une session automatisée dans Chrome, vous aurez accès aux commandes spécifiques à Chromium telles que [`elementHover`](/docs/api/chromium#elementhover) mais aucune des [commandes Appium](/docs/api/appium).
+Basé sur le backend d'automatisation utilisé pour votre session, WebdriverIO identifie quelles [commandes du protocole](protocols) seront attachées à l'objet [browser](/docs/api/browser). Par exemple, si vous lancez une session automatisée dans Chrome, vous aurez accès aux commandes spécifiques à Chromium telles que [`elementHover`](/docs/api/chromium#elementhover) mais aucune des [commandes Appium](/docs/api/appium).
 
 De plus, WebdriverIO fournit un ensemble de méthodes pratiques qu'il est recommandé d'utiliser pour interagir avec [le navigateur](/docs/api/browser) ou [les éléments](/docs/api/element) sur la page.
 

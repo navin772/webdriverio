@@ -75,7 +75,7 @@ Comme pour les packages de protocole (`webdriver` et `devtools`), vous pouvez é
 
 #### `remote(options, modifier)`
 
-Démarre une session WebdriverIO. L'instance contient toutes les commandes en tant que package de protocole mais avec des fonctions supplémentaires d'ordre supérieur, voir [docs API](/docs/api).
+Démarre une session WebdriverIO. L'instance contient toutes les commandes en tant que package de protocole mais avec des fonctions supplémentaires d'ordre supérieur, voir [docs API](../api).
 
 ##### Paramètres
 
@@ -207,7 +207,7 @@ La commande `run` renvoie une promesse [](https://developer.mozilla.org/en-US/do
 
 ## `@wdio/browser-runner`
 
-Lors de l'exécution de tests unitaires ou de composants à l'aide du navigateur [de WebdriverIO](/docs/runner#browser-runner) vous pouvez importer des utilitaires factices pour vos tests, par exemple :
+Lors de l'exécution de tests unitaires ou de composants à l'aide du navigateur [de WebdriverIO](../runner#browser-runner) vous pouvez importer des utilitaires factices pour vos tests, par exemple :
 
 ```ts
 import { fn, spyOn, mock, unmock } from '@wdio/browser-runner'

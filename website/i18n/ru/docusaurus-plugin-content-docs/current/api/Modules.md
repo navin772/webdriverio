@@ -75,7 +75,7 @@ Similar as to the protocol packages (`webdriver` and `devtools`) you can also us
 
 #### `remote(options, modifier)`
 
-Starts a WebdriverIO session. The instance contains all commands as the protocol package but with additional higher order functions, see [API docs](/docs/api).
+Starts a WebdriverIO session. The instance contains all commands as the protocol package but with additional higher order functions, see [API docs](../api).
 
 ##### Paramaters
 
@@ -207,7 +207,7 @@ The `run` command returns a [Promise](https://developer.mozilla.org/en-US/docs/W
 
 ## `@wdio/browser-runner`
 
-When running unit or component tests using WebdriverIO's [browser runner](/docs/runner#browser-runner) you can import mocking utilities for your tests, e.g.:
+When running unit or component tests using WebdriverIO's [browser runner](../runner#browser-runner) you can import mocking utilities for your tests, e.g.:
 
 ```ts
 import { fn, spyOn, mock, unmock } from '@wdio/browser-runner'

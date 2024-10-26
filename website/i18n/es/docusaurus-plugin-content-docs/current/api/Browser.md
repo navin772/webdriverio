@@ -5,7 +5,7 @@ title: El objeto navegador
 
 __Extensión:__ [EventEmitter](https://nodejs.org/api/events.html#class-eventemitter)
 
-El objeto navegador es la instancia de sesión con la que se controla el navegador o el dispositivo móvil. Si utiliza el ejecutor de pruebas WDIO, puede acceder a la instancia WebDriver a través del objeto global `browser` o `driver` o importarlo utilizando [`@wdio/globals`](/docs/api/globals). Si utiliza WebdriverIO en modo autónomo, el objeto navegador es devuelto por el método [`remoto`](/docs/api/modules#remoteoptions-modifier).
+El objeto navegador es la instancia de sesión con la que se controla el navegador o el dispositivo móvil. Si utiliza el ejecutor de pruebas WDIO, puede acceder a la instancia WebDriver a través del objeto global `browser` o `driver` o importarlo utilizando [`@wdio/globals`](globals). Si utiliza WebdriverIO en modo autónomo, el objeto navegador es devuelto por el método [`remoto`](modules#remoteoptions-modifier).
 
 La sesión es inicializada por el sistema de pruebas. Lo mismo ocurre para finalizar la sesión. Esto también lo hace el proceso de ejecución de pruebas.
 
@@ -26,7 +26,7 @@ Un objeto navegador tiene las siguientes propiedades:
 
 ## Métodos
 
-En función del backend de automatización utilizado para su sesión, WebdriverIO identifica qué [comandos de protocolo](/docs/api/protocols) se adjuntarán al [objeto navegador](/docs/api/browser). Por ejemplo, si ejecuta una sesión automatizada en Chrome, tendrá acceso a comandos específicos de Chromium como [`elementHover`](/docs/api/chromium#elementhover) pero no a ninguno de los [comandos de Appium](/docs/api/appium).
+En función del backend de automatización utilizado para su sesión, WebdriverIO identifica qué [comandos de protocolo](protocols) se adjuntarán al [objeto navegador](/docs/api/browser). Por ejemplo, si ejecuta una sesión automatizada en Chrome, tendrá acceso a comandos específicos de Chromium como [`elementHover`](/docs/api/chromium#elementhover) pero no a ninguno de los [comandos de Appium](/docs/api/appium).
 
 Además WebdriverIO proporciona un conjunto de métodos convenientes que se recomienda utilizar, para interactuar con los [navegador](/docs/api/browser) o los[elementos](/docs/api/element) en la página.
 
