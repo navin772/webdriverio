@@ -26,9 +26,9 @@ A browser object has the following properties:
 
 ## Methods
 
-Based on the automation backend used for your session, WebdriverIO identifies which [Protocol Commands](protocols) will be attached to the [browser object](/docs/api/browser). For example if you run an automated session in Chrome, you will have access to Chromium specific commands like [`elementHover`](/docs/api/chromium#elementhover) but not any of the [Appium commands](/docs/api/appium).
+Based on the automation backend used for your session, WebdriverIO identifies which [Protocol Commands](protocols) will be attached to the [browser object](browser). For example if you run an automated session in Chrome, you will have access to Chromium specific commands like [`elementHover`](/docs/api/chromium#elementhover) but not any of the [Appium commands](/docs/api/appium).
 
-Furthermore WebdriverIO provides a set of convenient methods that are recommended to use, to interact with the [browser](/docs/api/browser) or [elements](/docs/api/element) on the page.
+Furthermore WebdriverIO provides a set of convenient methods that are recommended to use, to interact with the [browser](browser) or [elements](/docs/api/element) on the page.
 
 In addition to that the following commands are available:
 

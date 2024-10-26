@@ -26,9 +26,9 @@ Un objet `browser` possède les propriétés suivantes :
 
 ## Méthodes
 
-Basé sur le backend d'automatisation utilisé pour votre session, WebdriverIO identifie quelles [commandes du protocole](protocols) seront attachées à l'objet [browser](/docs/api/browser). Par exemple, si vous lancez une session automatisée dans Chrome, vous aurez accès aux commandes spécifiques à Chromium telles que [`elementHover`](/docs/api/chromium#elementhover) mais aucune des [commandes Appium](/docs/api/appium).
+Basé sur le backend d'automatisation utilisé pour votre session, WebdriverIO identifie quelles [commandes du protocole](protocols) seront attachées à l'objet [browser](browser). Par exemple, si vous lancez une session automatisée dans Chrome, vous aurez accès aux commandes spécifiques à Chromium telles que [`elementHover`](/docs/api/chromium#elementhover) mais aucune des [commandes Appium](/docs/api/appium).
 
-De plus, WebdriverIO fournit un ensemble de méthodes pratiques qu'il est recommandé d'utiliser pour interagir avec [le navigateur](/docs/api/browser) ou [les éléments](/docs/api/element) sur la page.
+De plus, WebdriverIO fournit un ensemble de méthodes pratiques qu'il est recommandé d'utiliser pour interagir avec [le navigateur](browser) ou [les éléments](/docs/api/element) sur la page.
 
 En plus de cela, les commandes suivantes sont disponibles :
 

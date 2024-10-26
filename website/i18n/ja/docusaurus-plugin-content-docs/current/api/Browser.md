@@ -26,9 +26,9 @@ Browser Objectは、ブラウザまたはモバイル デバイスを制御す�
 
 ## Methods
 
-セッションに使用されるオートメーション バックエンドに基づいて、WebdriverIO の [Protocol Commands](protocols) はどの[browser object](/docs/api/browser)にアタッチされるかを識別します。 例えば、Chrome で自動セッションを実行する場合など [`elementHover`](/docs/api/chromium#elementhover) のような Chromium 固有のコマンドにアクセスできますが、 [Appium コマンド](/docs/api/appium) のいずれにもアクセスできません。
+セッションに使用されるオートメーション バックエンドに基づいて、WebdriverIO の [Protocol Commands](protocols) はどの[browser object](browser)にアタッチされるかを識別します。 例えば、Chrome で自動セッションを実行する場合など [`elementHover`](/docs/api/chromium#elementhover) のような Chromium 固有のコマンドにアクセスできますが、 [Appium コマンド](/docs/api/appium) のいずれにもアクセスできません。
 
-さらに、WebdriverIO は、ページ上の [ browser ](/docs/api/browser) または [ elements ](/docs/api/element) と対話するために使用することが推奨される一連の便利なメソッドを提供します。
+さらに、WebdriverIO は、ページ上の [ browser ](browser) または [ elements ](/docs/api/element) と対話するために使用することが推奨される一連の便利なメソッドを提供します。
 
 これに加えて、次のコマンドも使用できます。
 

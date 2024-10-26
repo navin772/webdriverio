@@ -21,7 +21,7 @@ Obiekt mock ma następujące właściwości:
 | --------------- | ---------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `url`           | `String`   | Adres URL przekazany do polecenia mock                                                                                                                                                          |
 | `filterOptions` | `Object`   | Opcje filtrowania zasobów przekazane do polecenia mock                                                                                                                                          |
-| `browser`       | `Object`   | [Obiekt przeglądarki](/docs/api/browser) użyty do pobrania obiektu mock.                                                                                                                        |
+| `browser`       | `Object`   | [Obiekt przeglądarki](browser) użyty do pobrania obiektu mock.                                                                                                                        |
 | `calls`         | `Object[]` | Informacje o pasujących żądaniach przeglądarki, zawierające właściwości takie jak `url`, `method`, `headers`, `initialPriority`, `referrrerPolicy`, `statusCode`, `responseHeaders` oraz `body` |
 
 ## Metody

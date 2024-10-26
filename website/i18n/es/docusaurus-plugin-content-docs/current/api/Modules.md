@@ -22,7 +22,7 @@ Inicia una nueva sesión con capacidades específicas. Basado en los comandos de
 
 ##### Retornos
 
-- [Objeto del navegador](/docs/api/browser)
+- [Objeto del navegador](browser)
 
 ##### Ejemplo
 
@@ -84,7 +84,7 @@ Inicia una sesión WebdriverIO. La instancia contiene todos los comandos como el
 
 ##### Retornos
 
-- [Objeto del navegador](/docs/api/browser)
+- [Objeto del navegador](browser)
 
 ##### Ejemplo
 
@@ -106,7 +106,7 @@ Se adjunta a una sesión de WebDriver o DevTools en ejecución.
 
 ##### Retornos
 
-- [Objeto del navegador](/docs/api/browser)
+- [Objeto del navegador](browser)
 
 ##### Ejemplo
 
@@ -127,7 +127,7 @@ Inicia una instancia multiremota que le permite controlar varias sesiones dentro
 
 ##### Retornos
 
-- [Objeto del navegador](/docs/api/browser)
+- [Objeto del navegador](browser)
 
 ##### Ejemplo
 

@@ -26,9 +26,9 @@ __ Extends:__ [EventEmitter](https://nodejs.org/api/events.html#class-eventemitt
 
 ## Methods
 
-உங்கள் அமர்வுக்கு பயன்படுத்தப்படும் ஆட்டோமேஷன் பின்தளத்தின் அடிப்படையில், [browser object](/docs/api/browser)உடன் எந்த [Protocol Commands](protocols) இணைக்கப்படும் என்பதை WebdriverIO அடையாளம் காட்டுகிறது. எடுத்துக்காட்டாக, நீங்கள் Chrome இல் தானியங்கு அமர்வை இயக்கினால், [`elementHover`](/docs/api/chromium#elementhover) போன்ற Chromium குறிப்பிட்ட கட்டளைகளுக்கான அணுகலைப் பெறுவீர்கள், ஆனால் [Appium commands ](/docs/api/appium) க்கு அல்ல.
+உங்கள் அமர்வுக்கு பயன்படுத்தப்படும் ஆட்டோமேஷன் பின்தளத்தின் அடிப்படையில், [browser object](browser)உடன் எந்த [Protocol Commands](protocols) இணைக்கப்படும் என்பதை WebdriverIO அடையாளம் காட்டுகிறது. எடுத்துக்காட்டாக, நீங்கள் Chrome இல் தானியங்கு அமர்வை இயக்கினால், [`elementHover`](/docs/api/chromium#elementhover) போன்ற Chromium குறிப்பிட்ட கட்டளைகளுக்கான அணுகலைப் பெறுவீர்கள், ஆனால் [Appium commands ](/docs/api/appium) க்கு அல்ல.
 
-மேலும் WebdriverIO ஆனது, பக்கத்தில் உள்ள [ browser ](/docs/api/browser) அல்லது [ elements ](/docs/api/element) உடன் தொடர்பு கொள்ள, பயன்படுத்தப் பரிந்துரைக்கப்படும் வசதியான முறைகளின் தொகுப்பை வழங்குகிறது.
+மேலும் WebdriverIO ஆனது, பக்கத்தில் உள்ள [ browser ](browser) அல்லது [ elements ](/docs/api/element) உடன் தொடர்பு கொள்ள, பயன்படுத்தப் பரிந்துரைக்கப்படும் வசதியான முறைகளின் தொகுப்பை வழங்குகிறது.
 
 கூடுதலாக, பின்வரும் கட்டளைகள் கிடைக்கின்றன:
 

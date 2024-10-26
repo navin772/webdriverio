@@ -3,7 +3,7 @@ id: dialog
 title: The Dialog Object
 ---
 
-Dialog objects are dispatched by [`browser`](/docs/api/browser) via the `browser.on('dialog')` event.
+Dialog objects are dispatched by [`browser`](browser) via the `browser.on('dialog')` event.
 
 An example of using the Dialog object:
 

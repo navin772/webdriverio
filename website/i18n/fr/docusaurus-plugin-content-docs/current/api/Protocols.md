@@ -3,16 +3,16 @@ id: protocols
 title: Commandes de protocole
 ---
 
-WebdriverIO est un cadre d'automatisation qui s'appuie sur divers protocoles d'automatisation pour contrôler un agent distant, par exemple pour un navigateur, un appareil mobile ou une télévision. En fonction de l'appareil distant, différents protocoles entrent en jeu. Ces commandes sont affectées à l'objet [Browser](/docs/api/browser) ou [Element](/docs/api/element) en fonction des informations de session par le serveur distant (par exemple, le pilote du navigateur).
+WebdriverIO est un cadre d'automatisation qui s'appuie sur divers protocoles d'automatisation pour contrôler un agent distant, par exemple pour un navigateur, un appareil mobile ou une télévision. En fonction de l'appareil distant, différents protocoles entrent en jeu. Ces commandes sont affectées à l'objet [Browser](browser) ou [Element](/docs/api/element) en fonction des informations de session par le serveur distant (par exemple, le pilote du navigateur).
 
-En interne, WebdriverIO utilise des commandes de protocole pour presque toutes les interactions avec l'agent distant. Cependant, des commandes supplémentaires affectées à l'objet [Browser](/docs/api/browser) ou [Element](/docs/api/element) simplifient l'utilisation de WebdriverIO, par exemple, obtenir le texte d'un élément à l'aide de commandes de protocole ressemblerait à ceci :
+En interne, WebdriverIO utilise des commandes de protocole pour presque toutes les interactions avec l'agent distant. Cependant, des commandes supplémentaires affectées à l'objet [Browser](browser) ou [Element](/docs/api/element) simplifient l'utilisation de WebdriverIO, par exemple, obtenir le texte d'un élément à l'aide de commandes de protocole ressemblerait à ceci :
 
 ```js
 const searchInput = await browser.findElement('css selector', '#lst-ib')
 await client.getElementText(searchInput['element-6066-11e4-a52e-4f735466cecf'])
 ```
 
-En utilisant les commandes pratiques de l'objet [Browser](/docs/api/browser) ou [Element](/docs/api/element) , cela peut être réduit à :
+En utilisant les commandes pratiques de l'objet [Browser](browser) ou [Element](/docs/api/element) , cela peut être réduit à :
 
 ```js
 $('#lst-ib').getText()

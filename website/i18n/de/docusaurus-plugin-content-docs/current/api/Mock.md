@@ -21,7 +21,7 @@ Ein Mock-Objekt hat folgende Eigenschaften:
 | --------------- | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | `url`           | `String`   | Die Url, die an den Mock-Befehl übergeben wurde                                                                                                                                |
 | `filterOptions` | `Object`   | Die Ressourcenfilter-Optionen, die an den Mock-Befehl übergeben wurde                                                                                                          |
-| `browser`       | `Object`   | Das [Browser-Objekt](/docs/api/browser), von dem aus der Mock Befehl ausgeführt wurde.                                                                                         |
+| `browser`       | `Object`   | Das [Browser-Objekt](browser), von dem aus der Mock Befehl ausgeführt wurde.                                                                                         |
 | `calls`         | `Object[]` | Informationen über passende Browser-Anfragen mit Eigenschaften wie `url`, `Methode`, `headers`, `initialPriority`, `referrerPolic`, `statusCode`, `responseHeaders` und `body` |
 
 ## Methoden

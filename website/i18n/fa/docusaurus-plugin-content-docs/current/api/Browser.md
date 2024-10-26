@@ -26,9 +26,9 @@ __گسترشی برای:__ [EventEmitter](https://nodejs.org/api/events.html#cla
 
 ## متود ها(توابع)
 
-بر اساس پشتیبان اتوماسیون مورد استفاده برای session شما، WebdriverIO مشخص می کند که کدام [دستور های پروتکل](protocols) به شی [browser](/docs/api/browser) متصل می شود. برای مثال، اگر یک session خودکار را در Chrome اجرا کنید، به دستورات خاص Chromium مانند [`elementHover`](/docs/api/chromium#elementhover) دسترسی خواهید داشت اما به هیچ یک از [فرمان های Appium](/docs/api/appium) دسترسی ندارید.
+بر اساس پشتیبان اتوماسیون مورد استفاده برای session شما، WebdriverIO مشخص می کند که کدام [دستور های پروتکل](protocols) به شی [browser](browser) متصل می شود. برای مثال، اگر یک session خودکار را در Chrome اجرا کنید، به دستورات خاص Chromium مانند [`elementHover`](/docs/api/chromium#elementhover) دسترسی خواهید داشت اما به هیچ یک از [فرمان های Appium](/docs/api/appium) دسترسی ندارید.
 
-علاوه بر این WebdriverIO مجموعه ای از روش های راحت را ارائه می دهد که برای تعامل با مرورگر [](/docs/api/browser) یا [عناصر](/docs/api/element) در صفحه توصیه می شود از آنها استفاده کنید.
+علاوه بر این WebdriverIO مجموعه ای از روش های راحت را ارائه می دهد که برای تعامل با مرورگر [](browser) یا [عناصر](/docs/api/element) در صفحه توصیه می شود از آنها استفاده کنید.
 
 علاوه بر آن دستورات زیر نیز موجود است:
 

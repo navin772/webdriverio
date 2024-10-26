@@ -22,7 +22,7 @@ Rozpoczyna nową sesję z określonymi możliwościami (capabilities). Na podsta
 
 ##### Zwracane wartości/obiekty
 
-- Obiekt [przeglądarki](/docs/api/browser)
+- Obiekt [przeglądarki](browser)
 
 ##### Przykład
 

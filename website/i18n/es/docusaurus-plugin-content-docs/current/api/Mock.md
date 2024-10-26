@@ -21,7 +21,7 @@ Un objeto simulado contiene las siguientes propiedades:
 | --------------- | ---------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `url`           | `String`   | La URL pasó al comando simulado                                                                                                                                                                      |
 | `filterOptions` | `Object`   | Las opciones de filtro de recursos pasadas en el comando mock                                                                                                                                        |
-| `browser`       | `Object`   | El [Objeto de navegador](/docs/api/browser) utilizado para obtener el objeto simulado.                                                                                                               |
+| `browser`       | `Object`   | El [Objeto de navegador](browser) utilizado para obtener el objeto simulado.                                                                                                               |
 | `calls`         | `Object[]` | Información sobre solicitudes coincidentes del navegador, que contiene propiedades como `url`, `método`, `encabezados`, `inicialPriority`, `referrerPolic`, `statusCode`, `ResponseHeaders` y `body` |
 
 ## Métodos

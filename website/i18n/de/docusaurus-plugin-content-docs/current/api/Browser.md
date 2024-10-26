@@ -26,9 +26,9 @@ Ein Browser-Objekt hat folgende Eigenschaften:
 
 ## Methoden
 
-Basierend auf dem für Ihre Sitzung verwendeten Automatisierungs-Backend WebdriverIO identifiziert welche [Protokollbefehle](protocols) dem [Browser-Objekt](/docs/api/browser) hinzugefügt werden. Zum Beispiel, bei einer automatisierten Sitzung in Chrome haben Sie Zugriff auf Chrome-spezifische Befehle wie [`elementHover`](/docs/api/chromium#elementhover) , aber keine der [Appium Befehle](/docs/api/appium).
+Basierend auf dem für Ihre Sitzung verwendeten Automatisierungs-Backend WebdriverIO identifiziert welche [Protokollbefehle](protocols) dem [Browser-Objekt](browser) hinzugefügt werden. Zum Beispiel, bei einer automatisierten Sitzung in Chrome haben Sie Zugriff auf Chrome-spezifische Befehle wie [`elementHover`](/docs/api/chromium#elementhover) , aber keine der [Appium Befehle](/docs/api/appium).
 
-Außerdem bietet WebdriverIO eine Reihe von praktischen Methoden, die zur Verwendung empfohlen werden um mit dem [Browser](/docs/api/browser) oder [Elementen](/docs/api/element) auf der Seite zu interagieren.
+Außerdem bietet WebdriverIO eine Reihe von praktischen Methoden, die zur Verwendung empfohlen werden um mit dem [Browser](browser) oder [Elementen](/docs/api/element) auf der Seite zu interagieren.
 
 Zusätzlich stehen folgende Befehle zur Verfügung:
 

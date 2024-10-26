@@ -21,7 +21,7 @@ Un objet `browser` possède les propriétés suivantes :
 | --------------- | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `url`           | `String`   | L'url est passée dans la commande bouchon                                                                                                                                                                           |
 | `filterOptions` | `Object`   | Les options de filtrage de ressource sont passées dans la commande bouchon                                                                                                                                          |
-| `browser`       | `Object`   | L'objet [Browser](/docs/api/browser) utilisé pour obtenir l'objet bouchon.                                                                                                                                          |
+| `browser`       | `Object`   | L'objet [Browser](browser) utilisé pour obtenir l'objet bouchon.                                                                                                                                          |
 | `calls`         | `Object[]` | Informations à propos des requêtes correspondantes du navigateur, contenant des propriétés telles que `url`, `méthode`, `en-têtes`, `initialPriorité`, `référencePolic`, `statusCode`, `responseHeaders` and `body` |
 
 ## Méthodes
