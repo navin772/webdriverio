@@ -3,7 +3,7 @@ id: clock
 title: The Clock Object
 ---
 
-You can modify the browser system clock using the [`emulate`](/docs/emulation) command. It overrides native global functions related to time allowing them to be controlled synchronously via `clock.tick()` or the yielded clock object. This includes controlling:
+You can modify the browser system clock using the [`emulate`](../emulation) command. It overrides native global functions related to time allowing them to be controlled synchronously via `clock.tick()` or the yielded clock object. This includes controlling:
 
 - `setTimeout`
 - `clearTimeout`
