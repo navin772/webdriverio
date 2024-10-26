@@ -26,15 +26,15 @@ __ Extends:__ [EventEmitter](https://nodejs.org/api/events.html#class-eventemitt
 
 ## Methods
 
-உங்கள் அமர்வுக்கு பயன்படுத்தப்படும் ஆட்டோமேஷன் பின்தளத்தின் அடிப்படையில், [browser object](browser)உடன் எந்த [Protocol Commands](protocols) இணைக்கப்படும் என்பதை WebdriverIO அடையாளம் காட்டுகிறது. எடுத்துக்காட்டாக, நீங்கள் Chrome இல் தானியங்கு அமர்வை இயக்கினால், [`elementHover`](/docs/api/chromium#elementhover) போன்ற Chromium குறிப்பிட்ட கட்டளைகளுக்கான அணுகலைப் பெறுவீர்கள், ஆனால் [Appium commands ](/docs/api/appium) க்கு அல்ல.
+உங்கள் அமர்வுக்கு பயன்படுத்தப்படும் ஆட்டோமேஷன் பின்தளத்தின் அடிப்படையில், [browser object](browser)உடன் எந்த [Protocol Commands](protocols) இணைக்கப்படும் என்பதை WebdriverIO அடையாளம் காட்டுகிறது. எடுத்துக்காட்டாக, நீங்கள் Chrome இல் தானியங்கு அமர்வை இயக்கினால், [`elementHover`](/docs/api/chromium#elementhover) போன்ற Chromium குறிப்பிட்ட கட்டளைகளுக்கான அணுகலைப் பெறுவீர்கள், ஆனால் [Appium commands ](../appium) க்கு அல்ல.
 
-மேலும் WebdriverIO ஆனது, பக்கத்தில் உள்ள [ browser ](browser) அல்லது [ elements ](/docs/api/element) உடன் தொடர்பு கொள்ள, பயன்படுத்தப் பரிந்துரைக்கப்படும் வசதியான முறைகளின் தொகுப்பை வழங்குகிறது.
+மேலும் WebdriverIO ஆனது, பக்கத்தில் உள்ள [ browser ](browser) அல்லது [ elements ](element) உடன் தொடர்பு கொள்ள, பயன்படுத்தப் பரிந்துரைக்கப்படும் வசதியான முறைகளின் தொகுப்பை வழங்குகிறது.
 
 கூடுதலாக, பின்வரும் கட்டளைகள் கிடைக்கின்றன:
 
 | பெயர்                | சுட்டீடுகள்(பாராமீட்டர்கள்)                                                                                            | விவரங்கள்                                                                                                                                                                                                                                                      |
 | -------------------- | ---------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `addCommand`         | - `commandName` (Type: `String`)<br />- `fn` (Type: `Function`)<br />- `attachToElement` (Type: `boolean`) | கலவை நோக்கங்களுக்காகப் பிரௌசர் ஆப்ஜெக்ட்டினிலிருந்து அழைக்கப்படும் தனிப்பயன் கட்டளைகளை வரையறுக்க அனுமதிக்கிறது. [Custom Command](/docs/customcommands) வழிகாட்டியில் மேலும் படிக்கவும்.                                                                        |
+| `addCommand`         | - `commandName` (Type: `String`)<br />- `fn` (Type: `Function`)<br />- `attachToElement` (Type: `boolean`) | கலவை நோக்கங்களுக்காகப் பிரௌசர் ஆப்ஜெக்ட்டினிலிருந்து அழைக்கப்படும் தனிப்பயன் கட்டளைகளை வரையறுக்க அனுமதிக்கிறது. [Custom Command](../customcommands) வழிகாட்டியில் மேலும் படிக்கவும்.                                                                        |
 | `overwriteCommand`   | - `commandName` (Type: `String`)<br />- `fn` (Type: `Function`)<br />- `attachToElement` (Type: `boolean`) | தனிப்பயன் செயல்பாட்டுடன் எந்த பிரௌசர் கட்டளையையும் மேலெழுத அனுமதிக்கிறது. பிரமேஒர்க் பயன்படுத்துபவர்களைக் குழப்பக்கூடும் என்பதால் கவனமாகப் பயன்படுத்தவும். [Custom Command](/docs/customcommands#overwriting-native-commands) வழிகாட்டியில் மேலும் படிக்கவும். |
 | `addLocatorStrategy` | - `strategyName` (Type: `String`)<br />- `fn` (Type: `Function`)                                                 | தனிப்பயன் செலெக்டர் உத்தியை வரையறுக்க அனுமதிக்கிறது, மேலும் [ Selectors ](/docs/selectors#custom-selector-strategies) வழிகாட்டியில் படிக்கவும்.                                                                                                                |
 

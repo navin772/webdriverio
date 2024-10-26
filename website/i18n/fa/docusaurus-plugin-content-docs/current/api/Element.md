@@ -14,18 +14,18 @@ title: شی Element
 | `sessionId` | `String` | Session id که از سرور remote اختصاص داده شده است.                                                                                                                                                                                 |
 | `elementId` | `String` | مرجعی از [Web element refrence](https://w3c.github.io/webdriver/#elements) که می تواند برای تعامل با element در سطح پروتکل استفاده شود                                                                                            |
 | `selector`  | `String` | [انتخابگر](/docs/selectors) برای درخواست element استفاده می شود.                                                                                                                                                                  |
-| `parent`    | `Object` | یا شیء [browser](browser) هنگامی که عنصر از آن واکشی شده است (مثلاً `const elem = browser.$('selector')`) یا یک شی [element](/docs/api/element) اگر از دامنه element درخواست شده باشد (مثلاً `elemenet.$( "selector")`) |
+| `parent`    | `Object` | یا شیء [browser](browser) هنگامی که عنصر از آن واکشی شده است (مثلاً `const elem = browser.$('selector')`) یا یک شی [element](element) اگر از دامنه element درخواست شده باشد (مثلاً `elemenet.$( "selector")`) |
 | `options`   | `Object` | [options](../configuration) های WebdriverIO که به این بستگی دارد که شئ browser چگونه ایجاد شده است. اطلاعات بیشتر در [راه اندازی types](../setuptypes).                                                                     |
 
 ## متود ها(توابع)
 
-یک شیء element همه متود ها را از بخش پروتکل ارائه می کند، به عنوان مثال پروتکل [WebDriver](/docs/api/webdriver) و همچنین دستورات فهرست شده در بخش element. دستورات پروتکل موجود به نوع session بستگی دارد. اگر یک session از مرورگر خودکار را اجرا کنید، هیچ یک از دستورات Appium [](/docs/api/appium) در دسترس نخواهد بود و بالعکس.
+یک شیء element همه متود ها را از بخش پروتکل ارائه می کند، به عنوان مثال پروتکل [WebDriver](/docs/api/webdriver) و همچنین دستورات فهرست شده در بخش element. دستورات پروتکل موجود به نوع session بستگی دارد. اگر یک session از مرورگر خودکار را اجرا کنید، هیچ یک از دستورات Appium [](../appium) در دسترس نخواهد بود و بالعکس.
 
 علاوه بر آن دستورات زیر نیز موجود است:
 
 | نام                | پارامترها                                                             | جزئیات                                                                                                                                                                                                                       |
 | ------------------ | --------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `addCommand`       | - `commandName` (Type: `String`)<br />- `fn` (Type: `Function`) | Allows to define custom commands that can be called from the browser object for composition purposes. در راهنمای [Custom Command](/docs/customcommands) بیشتر بخوانید.                                                       |
+| `addCommand`       | - `commandName` (Type: `String`)<br />- `fn` (Type: `Function`) | Allows to define custom commands that can be called from the browser object for composition purposes. در راهنمای [Custom Command](../customcommands) بیشتر بخوانید.                                                       |
 | `overwriteCommand` | - `commandName` (Type: `String`)<br />- `fn` (Type: `Function`) | Allows to overwrite any browser command with custom functionality. با دقت استفاده شود زیرا می تواند کاربران فریمورک را گیج کند. در راهنمای [Custom Command](/docs/customcommands#overwriting-native-commands) بیشتر بخوانید. |
 
 ## ملاحظات

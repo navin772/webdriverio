@@ -14,18 +14,18 @@ Un objeto navegador tiene las siguientes propiedades:
 | `sessionId` | `String` | Id de sesión asignado desde el servidor remoto.                                                                                                                                                                                                                                |
 | `elementId` | `String` | [referencia de elemento web](https://w3c.github.io/webdriver/#elements) asociada que puede ser usada para interactuar con el elemento en el nivel del protocolo                                                                                                                |
 | `selector`  | `String` | [Selector](/docs/selectors) utilizado para consultar el elemento.                                                                                                                                                                                                              |
-| `parent`    | `Object` | O bien el [objeto del navegador](browser) cuando el elemento fue obtenido de él (por ejemplo, `const elem = browser. ('selector')`) o un [Objeto de Elementos](/docs/api/element) si fue obtenido desde un ámbito de un elemento (por ejemplo, `elem.$('selector')`) |
+| `parent`    | `Object` | O bien el [objeto del navegador](browser) cuando el elemento fue obtenido de él (por ejemplo, `const elem = browser. ('selector')`) o un [Objeto de Elementos](element) si fue obtenido desde un ámbito de un elemento (por ejemplo, `elem.$('selector')`) |
 | `options`   | `Object` | Se crearon [opciones](../configuration) WebdriverIO, dependiendo de cómo se creó el objeto del navegador. Ver más [tipos de configuración](../setuptypes).                                                                                                               |
 
 ## Métodos
 
-Un objeto de elemento proporciona todos los métodos de la sección de protocolo, por ejemplo, el protocolo [WebDriver](/docs/api/webdriver) , así como comandos listados dentro de la sección del elemento. Los comandos de protocolo disponibles dependen del tipo de sesión. Si ejecuta una sesión automatizada en el navegador, ninguno de los comandos [de Appium](/docs/api/appium) estará disponible y vice versa.
+Un objeto de elemento proporciona todos los métodos de la sección de protocolo, por ejemplo, el protocolo [WebDriver](/docs/api/webdriver) , así como comandos listados dentro de la sección del elemento. Los comandos de protocolo disponibles dependen del tipo de sesión. Si ejecuta una sesión automatizada en el navegador, ninguno de los comandos [de Appium](../appium) estará disponible y vice versa.
 
 Además de que dispone de los siguientes comandos:
 
 | Nombre             | Parámetros                                                            | Información                                                                                                                                                                                                                                 |
 | ------------------ | --------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `addCommand`       | - `commandName` (Type: `String`)<br />- `fn` (Type: `Function`) | Allows to define custom commands that can be called from the browser object for composition purposes. Más información en la guía [Comandos personalizados](/docs/customcommands).                                                           |
+| `addCommand`       | - `commandName` (Type: `String`)<br />- `fn` (Type: `Function`) | Allows to define custom commands that can be called from the browser object for composition purposes. Más información en la guía [Comandos personalizados](../customcommands).                                                           |
 | `overwriteCommand` | - `commandName` (Type: `String`)<br />- `fn` (Type: `Function`) | Allows to overwrite any browser command with custom functionality. Utilícelo con cuidado, ya que puede confundir a los usuarios del marco. Lea más en la guía de [Comando Personalizado](/docs/customcommands#overwriting-native-commands). |
 
 ## Avisos

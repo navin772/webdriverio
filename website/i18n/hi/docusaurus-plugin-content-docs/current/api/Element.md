@@ -14,18 +14,18 @@ title: एलीमेंट ऑब्जेक्ट
 | `sessionId` | `String` | दूरस्थ सर्वर से निर्दिष्ट सत्र आईडी।                                                                                                                                                                                                                             |
 | `elementId` | `String` | संबद्ध [वेब तत्व संदर्भ](https://w3c.github.io/webdriver/#elements) जिसका उपयोग प्रोटोकॉल स्तर पर तत्व के साथ इंटरैक्ट करने के लिए किया जा सकता है                                                                                                               |
 | `selector`  | `String` | [चयनकर्ता](/docs/selectors) तत्व को क्वेरी करने के लिए प्रयोग किया जाता है।                                                                                                                                                                                      |
-| `parent`    | `Object` | या तो [ब्राउज़र ऑब्जेक्ट](browser) जब तत्व इससे प्राप्त किया गया था (उदाहरण के लिए `cconst elem = browser.$('selector')`) या एक [तत्व ऑब्जेक्ट](/docs/api/element) यदि यह किसी तत्व दायरे से प्राप्त किया गया था (उदाहरण के लिए `elem.$( 'selector')`) |
+| `parent`    | `Object` | या तो [ब्राउज़र ऑब्जेक्ट](browser) जब तत्व इससे प्राप्त किया गया था (उदाहरण के लिए `cconst elem = browser.$('selector')`) या एक [तत्व ऑब्जेक्ट](element) यदि यह किसी तत्व दायरे से प्राप्त किया गया था (उदाहरण के लिए `elem.$( 'selector')`) |
 | `options`   | `Object` | WebdriverIO [विकल्प](../configuration) ब्राउज़र ऑब्जेक्ट कैसे बनाया गया था इसके आधार पर। अधिक [सेटअप प्रकार देखें](../setuptypes)।                                                                                                                         |
 
 ## विधियां
 
-एक एलिमेंट ऑब्जेक्ट प्रोटोकॉल सेक्शन से सभी तरीके प्रदान करता है, उदाहरण के लिए [वेबड्राइवर](/docs/api/webdriver) प्रोटोकॉल और साथ ही एलिमेंट सेक्शन में सूचीबद्ध कमांड। उपलब्ध प्रोटोकॉल कमांड सत्र के प्रकार पर निर्भर करते हैं। यदि आप एक स्वचालित ब्राउज़र सत्र चलाते हैं, तो Appium [कमांड](/docs/api/appium) में से कोई भी उपलब्ध नहीं होगा और इसके विपरीत।
+एक एलिमेंट ऑब्जेक्ट प्रोटोकॉल सेक्शन से सभी तरीके प्रदान करता है, उदाहरण के लिए [वेबड्राइवर](/docs/api/webdriver) प्रोटोकॉल और साथ ही एलिमेंट सेक्शन में सूचीबद्ध कमांड। उपलब्ध प्रोटोकॉल कमांड सत्र के प्रकार पर निर्भर करते हैं। यदि आप एक स्वचालित ब्राउज़र सत्र चलाते हैं, तो Appium [कमांड](../appium) में से कोई भी उपलब्ध नहीं होगा और इसके विपरीत।
 
 इसके अतिरिक्त निम्नलिखित आदेश उपलब्ध हैं:
 
 | नाम                | पैरामीटर                                                              | विवरण                                                                                                                                                                                                                               |
 | ------------------ | --------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `addCommand`       | - `commandName` (Type: `String`)<br />- `fn` (Type: `Function`) | Allows to define custom commands that can be called from the browser object for composition purposes. [कस्टम कमांड](/docs/customcommands) गाइड में और पढ़ें।                                                                        |
+| `addCommand`       | - `commandName` (Type: `String`)<br />- `fn` (Type: `Function`) | Allows to define custom commands that can be called from the browser object for composition purposes. [कस्टम कमांड](../customcommands) गाइड में और पढ़ें।                                                                        |
 | `overwriteCommand` | - `commandName` (Type: `String`)<br />- `fn` (Type: `Function`) | Allows to overwrite any browser command with custom functionality. सावधानी से उपयोग करें क्योंकि यह फ्रेमवर्क उपयोगकर्ताओं को भ्रमित कर सकता है। [कस्टम कमांड](/docs/customcommands#overwriting-native-commands) गाइड में और पढ़ें। |
 
 ## टिप्पणियां

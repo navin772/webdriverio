@@ -3,16 +3,16 @@ id: protocols
 title: Protokollbefehle
 ---
 
-WebdriverIO ist ein Automatisierungs-Framework, das sich auf verschiedene Automatisierungsprotokolle stützt, um eine Remote Software zu steuern, z. B. einen Browser, ein mobiles Gerät oder einen Fernseher. Je nachdem der zu automatisierenden Software kommen unterschiedliche Protokolle ins Spiel. Diese Befehle werden abhängig von den Sitzungsinformationen des entfernten Servers (z. B. Browsertreiber) dem Objekt [Browser](browser) oder [Element](/docs/api/element) zugewiesen.
+WebdriverIO ist ein Automatisierungs-Framework, das sich auf verschiedene Automatisierungsprotokolle stützt, um eine Remote Software zu steuern, z. B. einen Browser, ein mobiles Gerät oder einen Fernseher. Je nachdem der zu automatisierenden Software kommen unterschiedliche Protokolle ins Spiel. Diese Befehle werden abhängig von den Sitzungsinformationen des entfernten Servers (z. B. Browsertreiber) dem Objekt [Browser](browser) oder [Element](element) zugewiesen.
 
-Intern verwendet WebdriverIO Protokollbefehle für fast alle Interaktionen mit dem Remote-Agenten. Zusätzliche Befehle, die dem Objekt [Browser](browser) oder [Element](/docs/api/element) zugewiesen sind, vereinfachen jedoch die Verwendung von WebdriverIO, z. B. würde das Abrufen des Texts eines Elements mithilfe von Protokollbefehlen wie folgt aussehen:
+Intern verwendet WebdriverIO Protokollbefehle für fast alle Interaktionen mit dem Remote-Agenten. Zusätzliche Befehle, die dem Objekt [Browser](browser) oder [Element](element) zugewiesen sind, vereinfachen jedoch die Verwendung von WebdriverIO, z. B. würde das Abrufen des Texts eines Elements mithilfe von Protokollbefehlen wie folgt aussehen:
 
 ```js
 const searchInput = await browser.findElement('css selector', '#lst-ib')
 await client.getElementText(searchInput['element-6066-11e4-a52e-4f735466cecf'])
 ```
 
-Mit den praktischen Befehlen des Objekts [Browser](browser) oder [Element](/docs/api/element) kann dies reduziert werden auf:
+Mit den praktischen Befehlen des Objekts [Browser](browser) oder [Element](element) kann dies reduziert werden auf:
 
 ```js
 $('#lst-ib').getText()

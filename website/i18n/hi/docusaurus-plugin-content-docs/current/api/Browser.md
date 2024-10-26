@@ -26,15 +26,15 @@ __विस्तार:__ [इवेंटएमिटर](https://nodejs.org/a
 
 ## विधियां
 
-आपके सत्र के लिए उपयोग किए गए ऑटोमेशन बैकएंड के आधार पर, WebdriverIO पहचानता है कि कौन से [प्रोटोकॉल कमांड](protocols) को [ब्राउज़र ऑब्जेक्ट](browser)से जोड़ा जाएगा। उदाहरण के लिए यदि आप क्रोम में एक स्वचालित सत्र चलाते हैं, तो आपके पास क्रोमियम विशिष्ट कमांड जैसे [`elementHover`](/docs/api/chromium#elementhover) तक पहुंच होगी, लेकिन [एपियम कमांड](/docs/api/appium)में से कोई भी नहीं।
+आपके सत्र के लिए उपयोग किए गए ऑटोमेशन बैकएंड के आधार पर, WebdriverIO पहचानता है कि कौन से [प्रोटोकॉल कमांड](protocols) को [ब्राउज़र ऑब्जेक्ट](browser)से जोड़ा जाएगा। उदाहरण के लिए यदि आप क्रोम में एक स्वचालित सत्र चलाते हैं, तो आपके पास क्रोमियम विशिष्ट कमांड जैसे [`elementHover`](/docs/api/chromium#elementhover) तक पहुंच होगी, लेकिन [एपियम कमांड](../appium)में से कोई भी नहीं।
 
-इसके अलावा WebdriverIO पृष्ठ पर [ब्राउज़र](browser) या [तत्वों](/docs/api/element) के साथ इंटरैक्ट करने के लिए उपयोग करने के लिए अनुशंसित सुविधाजनक तरीकों का एक सेट प्रदान करता है।
+इसके अलावा WebdriverIO पृष्ठ पर [ब्राउज़र](browser) या [तत्वों](element) के साथ इंटरैक्ट करने के लिए उपयोग करने के लिए अनुशंसित सुविधाजनक तरीकों का एक सेट प्रदान करता है।
 
 इसके अतिरिक्त निम्नलिखित आदेश उपलब्ध हैं:
 
 | नाम                  | पैरामीटर                                                                                                               | विवरण                                                                                                                                                                                                                               |
 | -------------------- | ---------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `addCommand`         | - `commandName` (Type: `String`)<br />- `fn` (Type: `Function`)<br />- `attachToElement` (Type: `boolean`) | कस्टम कमांड को परिभाषित करने की अनुमति देता है जिसे रचना उद्देश्यों के लिए ब्राउज़र ऑब्जेक्ट से कॉल किया जा सकता है। [कस्टम कमांड](/docs/customcommands) गाइड में और पढ़ें।                                                         |
+| `addCommand`         | - `commandName` (Type: `String`)<br />- `fn` (Type: `Function`)<br />- `attachToElement` (Type: `boolean`) | कस्टम कमांड को परिभाषित करने की अनुमति देता है जिसे रचना उद्देश्यों के लिए ब्राउज़र ऑब्जेक्ट से कॉल किया जा सकता है। [कस्टम कमांड](../customcommands) गाइड में और पढ़ें।                                                         |
 | `overwriteCommand`   | - `commandName` (Type: `String`)<br />- `fn` (Type: `Function`)<br />- `attachToElement` (Type: `boolean`) | Allows to overwrite any browser command with custom functionality. सावधानी से उपयोग करें क्योंकि यह फ्रेमवर्क उपयोगकर्ताओं को भ्रमित कर सकता है। [कस्टम कमांड](/docs/customcommands#overwriting-native-commands) गाइड में और पढ़ें। |
 | `addLocatorStrategy` | - `strategyName` (Type: `String`)<br />- `fn` (Type: `Function`)                                                 | Allows to define a custom selector strategy, read more in the [Selectors](/docs/selectors#custom-selector-strategies) guide.                                                                                                        |
 

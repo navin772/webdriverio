@@ -3,16 +3,16 @@ id: protocols
 title: Protocol Commands
 ---
 
-WebdriverIO یک فریمورک اتوماسیون است که برای کنترل یک remote agent، به عنوان مثال برای یک مرورگر، دستگاه تلفن همراه یا تلویزیون، بر پروتکل‌های مختلف اتوماسیون متکی است. بر اساس دستگاه ریموت، پروتکل های مختلفی وارد بازی می شوند. این دستورها بسته به اطلاعات session توسط سرور remote (مثلاً درایور مرورگر) به شیء [Browser](browser) یا [Element](/docs/api/element) اختصاص داده می شوند.
+WebdriverIO یک فریمورک اتوماسیون است که برای کنترل یک remote agent، به عنوان مثال برای یک مرورگر، دستگاه تلفن همراه یا تلویزیون، بر پروتکل‌های مختلف اتوماسیون متکی است. بر اساس دستگاه ریموت، پروتکل های مختلفی وارد بازی می شوند. این دستورها بسته به اطلاعات session توسط سرور remote (مثلاً درایور مرورگر) به شیء [Browser](browser) یا [Element](element) اختصاص داده می شوند.
 
-در داخل WebdriverIO تقریباً برای تمام تعاملات با عامل راه دور از دستورات پروتکل استفاده می شود. با این حال دستورات اضافی اختصاص داده شده به [Browser](browser) یا [Element](/docs/api/element) Object استفاده از WebdriverIO را ساده می کند، به عنوان مثال دریافت متن یک element با استفاده از دستورات پروتکل به شکل زیر است:
+در داخل WebdriverIO تقریباً برای تمام تعاملات با عامل راه دور از دستورات پروتکل استفاده می شود. با این حال دستورات اضافی اختصاص داده شده به [Browser](browser) یا [Element](element) Object استفاده از WebdriverIO را ساده می کند، به عنوان مثال دریافت متن یک element با استفاده از دستورات پروتکل به شکل زیر است:
 
 ```js
 const searchInput = await browser.findElement('css selector', '#lst-ib')
 await client.getElementText(searchInput['element-6066-11e4-a52e-4f735466cecf'])
 ```
 
-با استفاده از دستورات راحت [Browser](browser) یا [Element](/docs/api/element) Object می توان دستورات را به مورد زیر کاهش داد:
+با استفاده از دستورات راحت [Browser](browser) یا [Element](element) Object می توان دستورات را به مورد زیر کاهش داد:
 
 ```js
 $('#lst-ib').getText()

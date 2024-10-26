@@ -3,16 +3,16 @@ id: protocols
 title: Protocol Commands
 ---
 
-WebdriverIO is an automation framework that relies on various of automation protocols to control a remote agent, e.g. for a browser, mobile device or television. Based on the remote device different protocols come into play. These commands are assigned to the [Browser](browser) or [Element](/docs/api/element) Object depending on the session information by the remote server (e.g. browser driver).
+WebdriverIO is an automation framework that relies on various of automation protocols to control a remote agent, e.g. for a browser, mobile device or television. Based on the remote device different protocols come into play. These commands are assigned to the [Browser](browser) or [Element](element) Object depending on the session information by the remote server (e.g. browser driver).
 
-Internally WebdriverIO uses protocol commands for almost all interactions with the remote agent. However additional commands assigned to the [Browser](browser) or [Element](/docs/api/element) Object simplify the usage of WebdriverIO, e.g. getting the text of an element using protocol commands would look like this:
+Internally WebdriverIO uses protocol commands for almost all interactions with the remote agent. However additional commands assigned to the [Browser](browser) or [Element](element) Object simplify the usage of WebdriverIO, e.g. getting the text of an element using protocol commands would look like this:
 
 ```js
 const searchInput = await browser.findElement('css selector', '#lst-ib')
 await client.getElementText(searchInput['element-6066-11e4-a52e-4f735466cecf'])
 ```
 
-Using the convenient commands of the [Browser](browser) or [Element](/docs/api/element) Object this can be reduced to:
+Using the convenient commands of the [Browser](browser) or [Element](element) Object this can be reduced to:
 
 ```js
 $('#lst-ib').getText()

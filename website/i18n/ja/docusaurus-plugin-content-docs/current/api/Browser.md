@@ -26,15 +26,15 @@ Browser Objectは、ブラウザまたはモバイル デバイスを制御す�
 
 ## Methods
 
-セッションに使用されるオートメーション バックエンドに基づいて、WebdriverIO の [Protocol Commands](protocols) はどの[browser object](browser)にアタッチされるかを識別します。 例えば、Chrome で自動セッションを実行する場合など [`elementHover`](/docs/api/chromium#elementhover) のような Chromium 固有のコマンドにアクセスできますが、 [Appium コマンド](/docs/api/appium) のいずれにもアクセスできません。
+セッションに使用されるオートメーション バックエンドに基づいて、WebdriverIO の [Protocol Commands](protocols) はどの[browser object](browser)にアタッチされるかを識別します。 例えば、Chrome で自動セッションを実行する場合など [`elementHover`](/docs/api/chromium#elementhover) のような Chromium 固有のコマンドにアクセスできますが、 [Appium コマンド](../appium) のいずれにもアクセスできません。
 
-さらに、WebdriverIO は、ページ上の [ browser ](browser) または [ elements ](/docs/api/element) と対話するために使用することが推奨される一連の便利なメソッドを提供します。
+さらに、WebdriverIO は、ページ上の [ browser ](browser) または [ elements ](element) と対話するために使用することが推奨される一連の便利なメソッドを提供します。
 
 これに加えて、次のコマンドも使用できます。
 
 | Name                 | Parameters                                                                                                             | Details                                                                                                                                             |
 | -------------------- | ---------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `addCommand`         | - `commandName` (Type: `String`)<br />- `fn` (Type: `Function`)<br />- `attachToElement` (Type: `boolean`) | 作成目的でブラウザオブジェクトから呼び出すことができるカスタムコマンドを定義できます。 詳細については、 [Custom Command](/docs/customcommands) ガイドを参照してください。                                           |
+| `addCommand`         | - `commandName` (Type: `String`)<br />- `fn` (Type: `Function`)<br />- `attachToElement` (Type: `boolean`) | 作成目的でブラウザオブジェクトから呼び出すことができるカスタムコマンドを定義できます。 詳細については、 [Custom Command](../customcommands) ガイドを参照してください。                                           |
 | `overwriteCommand`   | - `commandName` (Type: `String`)<br />- `fn` (Type: `Function`)<br />- `attachToElement` (Type: `boolean`) | ブラウザコマンドをカスタム機能で上書きできます。 他の開発者を混乱させる可能性があるため、慎重に使用してください。 詳細については、 [Custom Command](/docs/customcommands#overwriting-native-commands) ガイドを参照してください。 |
 | `addLocatorStrategy` | - `strategyName` (Type: `String`)<br />- `fn` (Type: `Function`)                                                 | カスタム セレクター戦略を定義できます。詳細については、 [ Selectors ](/docs/selectors#custom-selector-strategies) ガイドを参照してください。                                                |
 

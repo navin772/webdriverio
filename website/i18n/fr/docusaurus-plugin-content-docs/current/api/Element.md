@@ -14,12 +14,12 @@ Un objet `element` possède les propriétés suivantes :
 | `sessionId` | `String` | Id de session attribué à partir du serveur distant.                                                                                                                                                                                                                 |
 | `elementId` | `String` | Référence de l'élément Web associé pouvant être utilisé pour interagir avec l'élément au niveau du protocole                                                                                                                                                    |
 | `selector`  | `String` | [Sélecteur](/docs/selectors) utilisé pour interroger l'élément.                                                                                                                                                                                                     |
-| `parent`    | `Object` | Soit le [L'objet Browser](browser) lorsque l'élément a été extrait de celui-ci (par exemple `const elem = browser.$('selector')`) ou un [Objet element](/docs/api/element) s'il a été extrait d'une portée d'élément (par exemple `elem.$( 'sélecteur')`) |
-| `options`   | `Object` | Permet de définir des commandes personnalisées pouvant être appelées depuis l'objet `browser` à des fins de composition. Pour en savoir plus, consultez le guide [Commande personnalisée](/docs/customcommands).                                                    |
+| `parent`    | `Object` | Soit le [L'objet Browser](browser) lorsque l'élément a été extrait de celui-ci (par exemple `const elem = browser.$('selector')`) ou un [Objet element](element) s'il a été extrait d'une portée d'élément (par exemple `elem.$( 'sélecteur')`) |
+| `options`   | `Object` | Permet de définir des commandes personnalisées pouvant être appelées depuis l'objet `browser` à des fins de composition. Pour en savoir plus, consultez le guide [Commande personnalisée](../customcommands).                                                    |
 
 ## Méthodes
 
-Un objet élément fournit toutes les méthodes de la section protocole, par exemple le protocole [WebDriver](/docs/api/webdriver) ainsi que les commandes répertoriées dans la section élément. Les commandes de protocole disponibles dépendent du type de session. Si vous exécutez une session de navigateur automatisée, aucune des commandes Appium [](/docs/api/appium) ne sera disponible et vice versa.
+Un objet élément fournit toutes les méthodes de la section protocole, par exemple le protocole [WebDriver](/docs/api/webdriver) ainsi que les commandes répertoriées dans la section élément. Les commandes de protocole disponibles dépendent du type de session. Si vous exécutez une session de navigateur automatisée, aucune des commandes Appium [](../appium) ne sera disponible et vice versa.
 
 En plus de cela, les commandes suivantes sont disponibles :
 

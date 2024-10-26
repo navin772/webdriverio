@@ -26,15 +26,15 @@ Un objeto navegador tiene las siguientes propiedades:
 
 ## Métodos
 
-En función del backend de automatización utilizado para su sesión, WebdriverIO identifica qué [comandos de protocolo](protocols) se adjuntarán al [objeto navegador](browser). Por ejemplo, si ejecuta una sesión automatizada en Chrome, tendrá acceso a comandos específicos de Chromium como [`elementHover`](/docs/api/chromium#elementhover) pero no a ninguno de los [comandos de Appium](/docs/api/appium).
+En función del backend de automatización utilizado para su sesión, WebdriverIO identifica qué [comandos de protocolo](protocols) se adjuntarán al [objeto navegador](browser). Por ejemplo, si ejecuta una sesión automatizada en Chrome, tendrá acceso a comandos específicos de Chromium como [`elementHover`](/docs/api/chromium#elementhover) pero no a ninguno de los [comandos de Appium](../appium).
 
-Además WebdriverIO proporciona un conjunto de métodos convenientes que se recomienda utilizar, para interactuar con los [navegador](browser) o los[elementos](/docs/api/element) en la página.
+Además WebdriverIO proporciona un conjunto de métodos convenientes que se recomienda utilizar, para interactuar con los [navegador](browser) o los[elementos](element) en la página.
 
 Además, dispone de los siguientes comandos:
 
 | Nombre               | Parámetros                                                                                                             | Detalles                                                                                                                                                                                                                                           |
 | -------------------- | ---------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `addCommand`         | - `commandName` (Type: `String`)<br />- `fn` (Type: `Function`)<br />- `attachToElement` (Type: `boolean`) | Permite definir comandos personalizados que pueden ser llamados desde el objeto navegador con fines de composición. Más información en la guía [Comandos personalizados](/docs/customcommands).                                                    |
+| `addCommand`         | - `commandName` (Type: `String`)<br />- `fn` (Type: `Function`)<br />- `attachToElement` (Type: `boolean`) | Permite definir comandos personalizados que pueden ser llamados desde el objeto navegador con fines de composición. Más información en la guía [Comandos personalizados](../customcommands).                                                    |
 | `overwriteCommand`   | - `commandName` (Type: `String`)<br />- `fn` (Type: `Function`)<br />- `attachToElement` (Type: `boolean`) | Allows to overwrite any browser command with custom functionality. Utilícelo con cuidado, ya que puede confundir a los usuarios del marco. Más información en la guía [Comandos personalizados](/docs/customcommands#overwriting-native-commands). |
 | `addLocatorStrategy` | - `strategyName` (Type: `String`)<br />- `fn` (Type: `Function`)                                                 | Allows to define a custom selector strategy, read more in the [Selectors](/docs/selectors#custom-selector-strategies) guide.                                                                                                                       |
 

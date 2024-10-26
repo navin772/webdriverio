@@ -26,15 +26,15 @@ A browser object has the following properties:
 
 ## Methods
 
-Based on the automation backend used for your session, WebdriverIO identifies which [Protocol Commands](protocols) will be attached to the [browser object](browser). For example if you run an automated session in Chrome, you will have access to Chromium specific commands like [`elementHover`](/docs/api/chromium#elementhover) but not any of the [Appium commands](/docs/api/appium).
+Based on the automation backend used for your session, WebdriverIO identifies which [Protocol Commands](protocols) will be attached to the [browser object](browser). For example if you run an automated session in Chrome, you will have access to Chromium specific commands like [`elementHover`](/docs/api/chromium#elementhover) but not any of the [Appium commands](../appium).
 
-Furthermore WebdriverIO provides a set of convenient methods that are recommended to use, to interact with the [browser](browser) or [elements](/docs/api/element) on the page.
+Furthermore WebdriverIO provides a set of convenient methods that are recommended to use, to interact with the [browser](browser) or [elements](element) on the page.
 
 In addition to that the following commands are available:
 
 | Name | Parameters | Details |
 | ---- | ---------- | ------- |
-| `addCommand` | - `commandName` (Type: `String`)<br />- `fn` (Type: `Function`)<br />- `attachToElement` (Type: `boolean`) | Allows to define custom commands that can be called from the browser object for composition purposes. Read more in the [Custom Command](/docs/customcommands) guide. |
+| `addCommand` | - `commandName` (Type: `String`)<br />- `fn` (Type: `Function`)<br />- `attachToElement` (Type: `boolean`) | Allows to define custom commands that can be called from the browser object for composition purposes. Read more in the [Custom Command](../customcommands) guide. |
 | `overwriteCommand` | - `commandName` (Type: `String`)<br />- `fn` (Type: `Function`)<br />- `attachToElement` (Type: `boolean`) | Allows to overwrite any browser command with custom functionality. Use carefully as it can confuse framework users. Read more in the [Custom Command](/docs/customcommands#overwriting-native-commands) guide. |
 | `addLocatorStrategy` | - `strategyName` (Type: `String`)<br />- `fn` (Type: `Function`) | Allows to define a custom selector strategy, read more in the [Selectors](/docs/selectors#custom-selector-strategies) guide. |
 

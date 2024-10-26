@@ -26,15 +26,15 @@ __گسترشی برای:__ [EventEmitter](https://nodejs.org/api/events.html#cla
 
 ## متود ها(توابع)
 
-بر اساس پشتیبان اتوماسیون مورد استفاده برای session شما، WebdriverIO مشخص می کند که کدام [دستور های پروتکل](protocols) به شی [browser](browser) متصل می شود. برای مثال، اگر یک session خودکار را در Chrome اجرا کنید، به دستورات خاص Chromium مانند [`elementHover`](/docs/api/chromium#elementhover) دسترسی خواهید داشت اما به هیچ یک از [فرمان های Appium](/docs/api/appium) دسترسی ندارید.
+بر اساس پشتیبان اتوماسیون مورد استفاده برای session شما، WebdriverIO مشخص می کند که کدام [دستور های پروتکل](protocols) به شی [browser](browser) متصل می شود. برای مثال، اگر یک session خودکار را در Chrome اجرا کنید، به دستورات خاص Chromium مانند [`elementHover`](/docs/api/chromium#elementhover) دسترسی خواهید داشت اما به هیچ یک از [فرمان های Appium](../appium) دسترسی ندارید.
 
-علاوه بر این WebdriverIO مجموعه ای از روش های راحت را ارائه می دهد که برای تعامل با مرورگر [](browser) یا [عناصر](/docs/api/element) در صفحه توصیه می شود از آنها استفاده کنید.
+علاوه بر این WebdriverIO مجموعه ای از روش های راحت را ارائه می دهد که برای تعامل با مرورگر [](browser) یا [عناصر](element) در صفحه توصیه می شود از آنها استفاده کنید.
 
 علاوه بر آن دستورات زیر نیز موجود است:
 
 | نام                  | پارامترها                                                                                                              | جزئیات                                                                                                                                                                                                                       |
 | -------------------- | ---------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `addCommand`         | - `commandName` (Type: `String`)<br />- `fn` (Type: `Function`)<br />- `attachToElement` (Type: `boolean`) | اجازه می دهد تا دستورات سفارشی را تعریف کرد که می توان از شی browser برای ترکیب های مختلف فراخوانی شود. در راهنمای [Custom Command](/docs/customcommands) بیشتر بخوانید.                                                     |
+| `addCommand`         | - `commandName` (Type: `String`)<br />- `fn` (Type: `Function`)<br />- `attachToElement` (Type: `boolean`) | اجازه می دهد تا دستورات سفارشی را تعریف کرد که می توان از شی browser برای ترکیب های مختلف فراخوانی شود. در راهنمای [Custom Command](../customcommands) بیشتر بخوانید.                                                     |
 | `overwriteCommand`   | - `commandName` (Type: `String`)<br />- `fn` (Type: `Function`)<br />- `attachToElement` (Type: `boolean`) | Allows to overwrite any browser command with custom functionality. با دقت استفاده شود زیرا می تواند کاربران فریمورک را گیج کند. در راهنمای [Custom Command](/docs/customcommands#overwriting-native-commands) بیشتر بخوانید. |
 | `addLocatorStrategy` | - `strategyName` (Type: `String`)<br />- `fn` (Type: `Function`)                                                 | Allows to define a custom selector strategy, read more in the [Selectors](/docs/selectors#custom-selector-strategies) guide.                                                                                                 |
 
